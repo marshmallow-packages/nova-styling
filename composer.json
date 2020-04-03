@@ -1,0 +1,52 @@
+{
+    "name": "marshmallow/nova-styling",
+    "description": "Nova in de huisstijl van Marshmallow.",
+    "keywords": [
+        "Laravel Nova Theme",
+        "Marshmallow Theme",
+        "Marshmallow"
+    ],
+    "homepage": "https://github.com/Marshmallow-Development/",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Stef van Esch",
+            "email": "stef@marshmallow.dev"
+        }
+    ],
+    "require": {
+        "php": "^7.1"
+    },
+    "require-dev": {
+    },
+    "autoload": {
+        "psr-4": {
+            "Marshmallow\\NovaStyling\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Marshmallow\\NovaStyling\\": "src"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Marshmallow\\NovaStyling\\ThemeServiceProvider"
+            ]
+        }
+    },
+    "scripts": {
+        "post-install-cmd": [
+            "@publishtheme"
+        ],
+        "post-update-cmd": [
+            "@publishtheme"
+        ],
+        "publishtheme": [
+            "@php artisan vendor:publish --provider=\"Marshmallow\\NovaStyling\\ThemeServiceProvider\" --force"
+        ]
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
