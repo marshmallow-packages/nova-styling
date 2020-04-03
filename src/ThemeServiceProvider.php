@@ -16,10 +16,10 @@ class ThemeServiceProvider extends ServiceProvider
      */
     public function boot()
     {
-        Nova::theme(asset('/marshmallow/marshmallow-theme/theme.css'));
+        Nova::theme(asset('/vendor/marshmallow/marshmallow-theme/theme.css'));
 
         $this->publishes([
-            __DIR__.'/../resources/css' => public_path('marshmallow/marshmallow-theme'),
+            __DIR__.'/../resources/css' => public_path('vendor/marshmallow/marshmallow-theme'),
         ], 'public');
 
         if ($this->app->runningInConsole()) {
