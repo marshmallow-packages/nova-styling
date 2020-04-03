@@ -15,7 +15,7 @@ class InstallCommand extends Command
      *
      * @var string
      */
-    protected $signature = 'marshmallow-theme:install';
+    protected $signature = 'marshmallow:install-nova-theme';
 
     /**
      * The console command description.
@@ -43,5 +43,11 @@ class InstallCommand extends Command
         }
 
         $this->info('Resources have been copies.');
+
+        Artisan::call('vendor:publish', [
+            '--provider' => 'Marshmallow\NovaStyling\ThemeServiceProvider',
+            // '--tag' => ['config'],
+            '--force' => true,
+        ]);
     }
 }
