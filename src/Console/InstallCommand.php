@@ -46,7 +46,6 @@ class InstallCommand extends Command
 
         Artisan::call('vendor:publish', [
             '--provider' => 'Marshmallow\NovaStyling\ThemeServiceProvider',
-            // '--tag' => ['config'],
             '--force' => true,
         ]);
     }
