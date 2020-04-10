@@ -23,7 +23,7 @@ Deze package zorgt ervoor dat de Nova installatie de styling van Marshmallow kri
 
 ### Installatie
 ```
-composer require marshmallow/package-novastyling
+composer require marshmallow/nova-styling
 ```
 
 Na de installatie moeten we alleen nog de assets publishen. Koppieer onderstaande commando en voer deze uit. Let op dat deze nova blade bestanden overschrijft in de resource folder. Hierdoor zullen er wijzigingen in GIT staan.
