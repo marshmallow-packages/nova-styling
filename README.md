@@ -1,38 +1,43 @@
-<p align="center">
-    <img src="https://marshmallow.dev/cdn/media/logo-red-237x46.png">
-</p>
-<p align="center">
-    <a href="https://github.com/Marshmallow-Development">
-        <img src="https://img.shields.io/github/issues/Marshmallow-Development/package-novastyling.svg" alt="Issues">
-    </a>
-    <a href="https://github.com/Marshmallow-Development">
-        <img src="https://img.shields.io/github/forks/Marshmallow-Development/package-novastyling.svg" alt="Forks">
-    </a>
-    <a href="https://github.com/Marshmallow-Development">
-        <img src="https://img.shields.io/github/stars/Marshmallow-Development/package-novastyling.svg" alt="Stars">
-    </a>
-    <a href="https://github.com/Marshmallow-Development">
-        <img src="https://img.shields.io/github/license/Marshmallow-Development/package-novastyling.svg" alt="License">
-    </a>
-</p>
-
 # Marshmallow Nova Styling
-Deze package zorgt ervoor dat de Nova installatie de styling van Marshmallow krijgt. Deze implementeren we bij alle CMS systemen die we leveren voor herkenbaarheid.
+[![marshmallow-transparent-logo](https://cdn.marshmallow-office.com/media/images/logo/marshmallow.transparent.red.png)](https://marshmallow.dev)
 
-<img src="https://marshmallow.dev/cdn/readme/nova-custom/custom-styling.png">
+[![Latest Version on Packagist](https://img.shields.io/packagist/v/marshmallow/nova-styling.svg)](https://packagist.org/packages/marshmallow/nova-styling)
+[![Total Downloads](https://img.shields.io/packagist/dt/marshmallow/nova-styling.svg)](https://packagist.org/packages/marshmallow/nova-styling)
+[![License](https://img.shields.io/packagist/l/marshmallow/nova-styling.svg)](https://gitlab.com/marshmallowdev)
+[![Stars](https://gitlab.com/marshmallow-packages/nova-styling/badges/master/stars.svg)](https://gitlab.com/marshmallowdev)
+[![Forks](https://gitlab.com/marshmallow-packages/nova-styling/badges/master/forks.svg)](hhttps://gitlab.com/marshmallowdev)
+[![Issues](https://gitlab.com/marshmallow-packages/nova-styling/badges/master/issues.svg)](https://gitlab.com/marshmallowdev)
 
-### Installatie
-```
+This package customizes Laravel Nova with the original Marshmallow styling. Implemented for all multipurpose CMS systems created and developed by Marshmallow.  
+
+## Screenshot
+
+Example
+------------ |
+[![marshmallow-nova-styling-example](https://marshmallow.dev/cdn/readme/nova-custom/custom-styling.png)](https://marshmallow.dev)
+
+### Installation
+
+```bash
 composer require marshmallow/nova-styling
 ```
 
-Na de installatie moeten we alleen nog de assets publishen. Koppieer onderstaande commando en voer deze uit. Let op dat deze nova blade bestanden overschrijft in de resource folder. Hierdoor zullen er wijzigingen in GIT staan.
+This theme includes adapted Nova blade files and a config file with options based on Nova Responsive Theme . To use them, first publish the config file:
 
-```
-php artisan marshmallow-theme:install
+```bash
 php artisan vendor:publish --provider="Marshmallow\NovaStyling\ThemeServiceProvider"
 ```
 
+Configure the options editing the `config/nova-theme-responsive.php` file.
+
 - - -
 
-Copyright (c) 2020 marshmallow
+## Credits
+Responsive design is based on Nova Responsive Theme by Gregoriohc.
+See https://github.com/gregoriohc/laravel-nova-theme-responsive - [Gregorio Hernández Caso](https://github.com/gregoriohc)
+
+Copyright (c) 2020 marshmallow.
+
+## License
+
+The MIT License (MIT). Please see [License File](LICENSE.md) for more information.
