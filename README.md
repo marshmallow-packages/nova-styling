@@ -5,7 +5,7 @@
 [![Total Downloads](https://img.shields.io/packagist/dt/marshmallow/nova-styling.svg)](https://packagist.org/packages/marshmallow/nova-styling)
 [![License](https://img.shields.io/packagist/l/marshmallow/nova-styling.svg)](https://gitlab.com/marshmallowdev)
 [![Stars](https://gitlab.com/marshmallow-packages/nova-styling/badges/master/stars.svg)](https://gitlab.com/marshmallowdev)
-[![Forks](https://gitlab.com/marshmallow-packages/nova-styling/badges/master/forks.svg)](hhttps://gitlab.com/marshmallowdev)
+[![Forks](https://gitlab.com/marshmallow-packages/nova-styling/badges/master/forks.svg)](https://gitlab.com/marshmallowdev)
 [![Issues](https://gitlab.com/marshmallow-packages/nova-styling/badges/master/issues.svg)](https://gitlab.com/marshmallowdev)
 
 This package customizes Laravel Nova with the original Marshmallow styling. Implemented for all multipurpose CMS systems created and developed by Marshmallow.  
