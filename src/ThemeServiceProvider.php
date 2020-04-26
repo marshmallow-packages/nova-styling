@@ -5,10 +5,13 @@ namespace Marshmallow\NovaStyling;
 use Illuminate\Support\ServiceProvider;
 use Laravel\Nova\Events\ServingNova;
 use Laravel\Nova\Nova;
-use Marshmallow\NovaStyling\Console\InstallCommand;
 
 class ThemeServiceProvider extends ServiceProvider
 {
+
+    const NOVA_VIEWS_PATH =  __DIR__ . '/../resources/views/';
+    const CSS_PATH =  __DIR__ . '/../resources/css';
+
     /**
      * Bootstrap any application services.
      *
@@ -16,17 +19,19 @@ class ThemeServiceProvider extends ServiceProvider
      */
     public function boot()
     {
-        Nova::theme(asset('/vendor/marshmallow/marshmallow-theme/theme.css'));
+        Nova::theme(asset('/vendor/marshmallow/marshmallow-theme/marshmallow-theme.css'));
+
+        Nova::serving(function (ServingNova $event) {
+            Nova::style('marshmallow-theme', __DIR__.'/../resources/css/theme.css');
+        });
 
         $this->publishes([
-            __DIR__.'/../resources/css' => public_path('vendor/marshmallow/marshmallow-theme'),
-        ], 'public');
+            self::NOVA_VIEWS_PATH => resource_path('views/vendor/nova'),
+        ], 'resource');
 
-        if ($this->app->runningInConsole()) {
-            $this->commands([
-                InstallCommand::class,
-            ]);
-        }
+        $this->publishes([
+            self::CSS_PATH => public_path('css/vendor/marshmallow'),
+        ], 'public');
     }
 
     /**

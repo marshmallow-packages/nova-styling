@@ -1,12 +1,12 @@
 {
     "name": "marshmallow/nova-styling",
-    "description": "Nova in de huisstijl van Marshmallow.",
+    "description": "A Response Laravel Nova Marshmallow Theme.",
     "keywords": [
         "Laravel Nova Theme",
         "Marshmallow Theme",
         "Marshmallow"
     ],
-    "homepage": "https://github.com/Marshmallow-Development/",
+    "homepage": "https://gitlab.com/marshmallow-packages/",
     "license": "MIT",
     "authors": [
         {
@@ -15,7 +15,8 @@
         }
     ],
     "require": {
-        "php": "^7.1"
+        "php": "^7.1",
+        "gregoriohc/laravel-nova-theme-responsive": "^0.8.1"
     },
     "require-dev": {
     },
@@ -35,17 +36,6 @@
                 "Marshmallow\\NovaStyling\\ThemeServiceProvider"
             ]
         }
-    },
-    "scripts": {
-        "post-install-cmd": [
-            "@publishtheme"
-        ],
-        "post-update-cmd": [
-            "@publishtheme"
-        ],
-        "publishtheme": [
-            "@php artisan vendor:publish --provider=\"Marshmallow\\NovaStyling\\ThemeServiceProvider\" --force"
-        ]
     },
     "minimum-stability": "dev",
     "prefer-stable": true
