@@ -22,7 +22,7 @@ class ThemeServiceProvider extends ServiceProvider
         Nova::theme(asset('/vendor/marshmallow/marshmallow-theme/marshmallow-theme.css'));
 
         Nova::serving(function (ServingNova $event) {
-            Nova::style('marshmallow-theme', __DIR__.'/../resources/css/theme.css');
+            Nova::style('marshmallow-theme', __DIR__.'/../resources/css/marshmallow-theme.css');
         });
 
         $this->publishes([

@@ -28,6 +28,12 @@ This theme includes adapted Nova blade files and a config file with options base
 php artisan vendor:publish --provider="Marshmallow\NovaStyling\ThemeServiceProvider"
 ```
 
+## Responsive
+If you wan't to make Nova responsive, please run the artisan command below.
+```bash
+php artisan vendor:publish --provider="Gregoriohc\LaravelNovaThemeResponsive\ThemeServiceProvider"
+```
+
 Configure the options editing the `config/nova-theme-responsive.php` file.
 
 - - -
