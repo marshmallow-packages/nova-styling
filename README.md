@@ -12,7 +12,7 @@ This package customizes Laravel Nova with the original Marshmallow styling. Impl
 ## Screenshot
 
 Example
------------- |
+------------ 
 [![marshmallow-nova-styling-example](https://marshmallow.dev/cdn/readme/nova-custom/custom-styling.png)](https://marshmallow.dev)
 
 ### Installation
@@ -24,7 +24,7 @@ composer require marshmallow/nova-styling
 This theme includes adapted Nova blade files and a config file with options based on Nova Responsive Theme . To use them, first publish the config file:
 
 ```bash
-php artisan vendor:publish --provider="Marshmallow\NovaStyling\ThemeServiceProvider"
+php artisan vendor:publish --provider="Marshmallow\NovaStyling\ThemeServiceProvider" --force
 ```
 
 ## Responsive

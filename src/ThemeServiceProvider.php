@@ -9,8 +9,8 @@ use Laravel\Nova\Nova;
 class ThemeServiceProvider extends ServiceProvider
 {
 
-    const NOVA_VIEWS_PATH =  __DIR__ . '/../resources/views/';
-    const CSS_PATH =  __DIR__ . '/../resources/css';
+    const NOVA_VIEWS_PATH = __DIR__ . '/../resources/views/';
+    const CSS_PATH = __DIR__ . '/../resources/css';
 
     /**
      * Bootstrap any application services.
@@ -19,6 +19,8 @@ class ThemeServiceProvider extends ServiceProvider
      */
     public function boot()
     {
+        Nova::theme(asset('/vendor/marshmallow/marshmallow-theme.css'));
+
         Nova::serving(function (ServingNova $event) {
             Nova::style('marshmallow-theme', __DIR__.'/../resources/css/marshmallow-theme.css');
         });
