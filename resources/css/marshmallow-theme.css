@@ -25,6 +25,20 @@
   );
 }
 
+.p-relative {
+    position: relative;
+}
+.current-language-header-icon {
+    position: absolute;
+    height: 20px;
+    width: 20px;
+    top: -2px;
+    left: 20px;
+    border: 2px solid #27ae60;
+    padding: 2px;
+    background: white;
+}
+
 @media (max-width: 992px) {
     html:not([dir="rtl"]) .h-header .dropdown-trigger img.mr-3 {
         margin-right: 2em;
