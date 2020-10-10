@@ -1,0 +1,21 @@
+name: PHP Syntax Checker
+
+on:
+  push:
+    branches:
+      - master
+  pull_request:
+    branches:
+      - master
+
+jobs:
+  php-cs-fixer:
+    name: PHP Syntax Checker
+    runs-on: ubuntu-latest
+    steps:
+
+      - name: Checkout v2
+        uses: actions/checkout@v2
+
+      - name: Check PHP syntax errors
+        uses: overtrue/phplint@master
