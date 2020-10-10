@@ -8,7 +8,6 @@ use Laravel\Nova\Nova;
 
 class ThemeServiceProvider extends ServiceProvider
 {
-
     const NOVA_VIEWS_PATH = __DIR__ . '/../resources/views/';
     const CSS_PATH = __DIR__ . '/../resources/css';
 
