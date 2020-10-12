@@ -18,8 +18,6 @@ class ThemeServiceProvider extends ServiceProvider
      */
     public function boot()
     {
-        Nova::theme(asset('/vendor/marshmallow/marshmallow-theme.css'));
-
         Nova::serving(function (ServingNova $event) {
             Nova::style('marshmallow-theme', __DIR__.'/../resources/css/marshmallow-theme.css');
         });
