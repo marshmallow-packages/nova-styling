@@ -1,22 +1,32 @@
 {
     "name": "marshmallow/nova-styling",
-    "description": "A Response Laravel Nova Marshmallow Theme.",
+    "description": "A Responsive Laravel Nova Marshmallow Theme based on 'A Responsive Laravel Nova theme'.",
     "keywords": [
         "Laravel Nova Theme",
         "Marshmallow Theme",
-        "Marshmallow"
+        "Marshmallow",
+        "laravel",
+        "nova",
+        "Responsive Laravel Nova Theme"
     ],
-    "homepage": "https://gitlab.com/marshmallow-packages/",
+    "homepage": "https://github.com/marshmallow-packages/nova-styling",
     "license": "MIT",
     "authors": [
         {
             "name": "Stef van Esch",
-            "email": "stef@marshmallow.dev"
+            "email": "stef@marshmallow.dev",
+            "homepage": "https://marshmallow.dev/",
+            "role": "Developer"
+        },
+        {
+            "name": "LTKort",
+            "email": "lars@kort.dev",
+            "homepage": "https://kort.dev/",
+            "role": "Developer"
         }
     ],
     "require": {
-        "php": "^7.1",
-        "gregoriohc/laravel-nova-theme-responsive": "^0.8.1"
+        "php": "^7.1"
     },
     "require-dev": {
     },
