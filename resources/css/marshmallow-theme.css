@@ -7,8 +7,13 @@
   --primary-10: rgba(255, 18, 59, 0.1);
   --logo: #ff123b;
   --sidebar-icon: #fff;
-  --secondary: #00c9a7;
-  --tertiary: #27ae60;
+  --secondary: #5C7AFF;
+  --tertiary: #FBAF00;
+  --dark: #292F36;
+  --blue: #5C7AFF;
+  --yellow: #F4E409;
+  --dark-green: #218380;
+  --orange: #FBAF00;
 }
 
 .bg-grad-sidebar {
@@ -37,9 +42,15 @@
     color:var(--secondary)
 }
 
+.text-primary-bold {
+    color:var(--primary);
+    font-weight: 600;
+}
+
 .p-relative {
     position: relative;
 }
+
 .current-language-header-icon {
     position: absolute;
     height: 20px;
