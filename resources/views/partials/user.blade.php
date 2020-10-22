@@ -7,7 +7,7 @@
     @endif
 
     <span class="text-90">
-        {{ $user->name ?? $user->email ?? __('Nova User') }}
+        {{ $user->name ?? $user->email ?? __('Marshmallow User') }}
     </span>
 </dropdown-trigger>
 

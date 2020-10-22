@@ -49,7 +49,7 @@
      @if (\Laravel\Nova\Nova::resetsPasswords())
         <div class="ml-auto text-center text-sm">
             <svg class="block mx-auto mb-6" xmlns="http://www.w3.org/2000/svg" width="100" height="2" viewBox="0 0 100 2"><path fill="#D8E3EC" d="M0 0h100v2H0z"/></svg>
-            <a class="text-secondary dim no-underline" href="{{ route('nova.password.request') }}">
+            <a class="text-primary dim no-underline" href="{{ route('nova.password.request') }}">
                 {{ __('Forgot Your Password?') }}
             </a>
         </div>
