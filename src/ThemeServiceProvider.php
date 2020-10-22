@@ -2,9 +2,9 @@
 
 namespace Marshmallow\NovaStyling;
 
-use Illuminate\Support\ServiceProvider;
-use Laravel\Nova\Events\ServingNova;
 use Laravel\Nova\Nova;
+use Laravel\Nova\Events\ServingNova;
+use Illuminate\Support\ServiceProvider;
 
 class ThemeServiceProvider extends ServiceProvider
 {
@@ -27,6 +27,7 @@ class ThemeServiceProvider extends ServiceProvider
             Nova::provideToScript([
                 'mmns' => config('nova-styling'),
             ]);
+
         });
 
         // Publishes Config
