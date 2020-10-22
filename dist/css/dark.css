@@ -1,0 +1,72 @@
+html.nova-dark-theme {
+    background: #1a202c !important;
+    height: auto !important;
+}
+:root {
+    --white: #2d3848;
+    --50: #3d4d62;
+    --60: #4a5568;
+    --20: #354256;
+    --30: #252f3d;
+    --40: #2d3748;
+    --70: #eeeeee;
+    --90: #cbd5e0;
+    --80: #d8d8d8;
+}
+
+.nova-dark-theme .form-global-search, .nova-dark-theme input {
+    border-color: #4a5568;
+    background: #252f3d;
+}
+
+.nova-dark-theme .btn-primary {
+    color: white;
+}
+
+.nova-dark-theme body {
+    background: #1a202c !important;
+    height: auto !important;
+}
+.nova-dark-theme .bg-gray-800 {
+    --bg-opacity: 1;
+    background-color: #2d3748;
+    background-color: rgba(45, 55, 72, var(--bg-opacity));
+}
+.nova-dark-theme .bg-gray-900 {
+    --bg-opacity: 1;
+    background-color: #1a202c;
+    background-color: rgba(26, 32, 44, var(--bg-opacity));
+}
+.nova-dark-theme .border-gray-700 {
+    --border-opacity: 1;
+    border-color: #4a5568;
+    border-color: rgba(74, 85, 104, var(--border-opacity));
+}
+.nova-dark-theme .text-white {
+    --text-opacity: 1;
+    color: #fff;
+    color: rgba(255, 255, 255, var(--text-opacity));
+}
+.nova-dark-theme .text-gray-400 {
+    --text-opacity: 1;
+    color: #cbd5e0;
+    color: rgba(203, 213, 224, var(--text-opacity));
+}
+.nova-dark-theme .bg-logo {
+    background: #0c0e15;
+}
+.nova-dark-theme .w-sidebar * {
+    color: #fff !important;
+}
+.nova-dark-theme .bg-grad-sidebar {
+    background: #2d3848;
+}
+.nova-dark-theme .text-90 {
+    color: #cfd3d8;
+}
+.nova-dark-theme .border-50 {
+    border-color: #4a5568;
+}
+html.nova-dark-theme {
+    background: #2d3748 !important;
+}

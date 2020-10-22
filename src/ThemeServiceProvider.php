@@ -24,6 +24,8 @@ class ThemeServiceProvider extends ServiceProvider
         Nova::serving(function (ServingNova $event) {
             Nova::style('nova-styling',  __DIR__ . '/../resources/css/responsive.css');
             Nova::script('nova-styling', __DIR__ . '/../resources/js/responsive.js');
+            Nova::style('nova-styling', __DIR__ . '/../dist/css/dark.css');
+            Nova::script('nova-styling', __DIR__ . '/../dist/js/dark.js');
             Nova::provideToScript([
                 'mmns' => config('nova-styling'),
             ]);
