@@ -1,6 +1,5 @@
 {
   "name": "marshmallow/nova-styling",
-  "version": "v1.3.4",
   "description": "A Responsive Laravel Nova Marshmallow Theme based on 'A Responsive Laravel Nova theme'.",
   "keywords": [
     "Laravel Nova Theme",
@@ -48,5 +47,6 @@
     }
   },
   "minimum-stability": "dev",
-  "prefer-stable": true
+  "prefer-stable": true,
+  "version": "v1.3.4"
 }
