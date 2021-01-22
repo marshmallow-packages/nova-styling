@@ -8,7 +8,7 @@ html.nova-dark-theme {
     --60: #4a5568;
     --20: #354256;
     --30: #252f3d;
-    --40: #2d3748;
+    --40: #424e62;
     --70: #eeeeee;
     --90: #cbd5e0;
     --80: #d8d8d8;
@@ -69,4 +69,8 @@ html.nova-dark-theme {
 }
 html.nova-dark-theme {
     background: #2d3748 !important;
+}
+.nova-dark-theme select.select-box-sm {
+     background: var(--40);
+     color: #cbd5e0 !important;
 }
