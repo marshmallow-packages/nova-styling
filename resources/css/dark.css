@@ -1,18 +1,18 @@
 
 :root {
-    --white: #2d3848;
+    --white: #0d1117;
     --50: #3d4d62;
     --60: #4a5568;
     --20: #354256;
-    --30: #252f3d;
+    --30: #0d1117;
     --40: #2d3748;
     --70: #eeeeee;
-    --90: #cbd5e0;
+    --90: #88929c;
     --80: #d8d8d8;
 }
 
 html {
-    background: #292F36 !important;
+    background: #0d1117 !important;
     filter: invert(100%) contrast(90%) hue-rotate(180deg);
     height: auto !important;
 }
@@ -26,7 +26,7 @@ img {
 }
 
 .w-sidebar * {
-    color: #5f5f5f !important;
+    color: #0d1117 !important;
 }
 
 /* .bg-grad-sidebar {
@@ -38,8 +38,8 @@ img {
     linear,
     left bottom,
     left top,
-    from(#292F36),
-    to(#3c4655)
+    from(#0d1117),
+    to(#0d1117)
   );
 }
 
