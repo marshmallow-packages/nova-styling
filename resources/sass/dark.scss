@@ -83,6 +83,17 @@ html.nova-dark-theme {
         background-color: #060910;
     }
 
+    .form-global-search:active,
+    .form-global-search:focus,
+    .form-search:active,
+    .form-search:focus {
+        background-color: #060910;
+    }
+
+    .btn-white {
+        background-color: #161b22;
+    }
+
     .hover\:bg-30:hover {
         background-color: #060910;
     }
@@ -102,23 +113,36 @@ html.nova-dark-theme {
 
     .form-input-bordered,
     .form-input-row {
-        background-color: #060910;
+        background-color: #0e1217;
         color: #cfd3d8;
     }
 
     .form-global-search,
     input {
-        border-color: #060910;
+        border-color: #535c67;
         background: #161b22;
         color: #cfd3d8;
     }
 
+    .nova-dark-theme .w-sidebar *:hover {
+        color: #ff113b !important;
+        opacity: 1;
+    }
+
     .form-input-bordered {
-        border-color: #4a5668;
+        border-color: #2e3235;
+    }
+
+    .text-60 {
+        color: #626a71;
     }
 
     .bg-20 {
         background-color: #161b22;
+    }
+
+    .checkbox:checked {
+        background-color: #060910;
     }
 
     .card {
@@ -168,6 +192,7 @@ html.nova-dark-theme {
 
     .bg-logo {
         background: #161b22;
+        color: white;
     }
 
     .w-sidebar * {
