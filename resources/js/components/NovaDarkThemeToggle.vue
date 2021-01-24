@@ -4,11 +4,11 @@
             class="block no-underline text-90 hover:bg-30 p-3 w-full text-left dark-mode-toggle">
         <icon-toggle
                 v-if="darkThemeOn"
-                class="w-4 text-black align-baseline ml-1 mr-4 dark-mode-active"
+                class="w-4 h-4 text-black align-baseline ml-1 mr-4 dark-mode-active"
                 style=""></icon-toggle>
         <icon-toggle
                 v-else
-                class="w-4 text-black align-baseline ml-1 mr-4 dark-mode-disabled"></icon-toggle>
+                class="w-4 h-4 text-black align-baseline ml-1 mr-4 dark-mode-disabled"></icon-toggle>
     </button>
 </template>
 
