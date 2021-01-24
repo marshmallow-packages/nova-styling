@@ -13,6 +13,10 @@ html.nova-dark-theme {
         // filter: invert(100%) hue-rotate(180deg);
     }
 
+    .dark-mode-toggle {
+        background-color: #0e1217;
+    }
+
     .bg-logo {
         background-image: linear-gradient(0deg, #eeeeee 0%, #fff 100%);
     }
@@ -104,8 +108,9 @@ html.nova-dark-theme {
 
     .form-global-search,
     input {
-        border-color: #4a5568;
-        background: #060910;
+        border-color: #060910;
+        background: #161b22;
+        color: #cfd3d8;
     }
 
     .form-input-bordered {
@@ -158,7 +163,7 @@ html.nova-dark-theme {
     }
 
     .flex.items-center.relative.shadow.h-header.bg-white.z-20.px-view {
-        background: #161b22;
+        background: #0f1217;
     }
 
     .bg-logo {
