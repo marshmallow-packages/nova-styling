@@ -1,4 +1,7 @@
 {
     "/dist/js/dark.js": "/dist/js/dark.js",
-    "/dist/css/dark.css": "/dist/css/dark.css"
+    "/dist/css/dark.css": "/dist/css/dark.css",
+    "/dist/js/responsive.js": "/dist/js/responsive.js",
+    "/dist/css/marshmallow-theme.css": "/dist/css/marshmallow-theme.css",
+    "/dist/css/responsive.css": "/dist/css/responsive.css"
 }

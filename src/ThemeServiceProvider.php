@@ -22,8 +22,8 @@ class ThemeServiceProvider extends ServiceProvider
     {
         // JS for Responsive design
         Nova::serving(function (ServingNova $event) {
-            Nova::style('nova-styling',  __DIR__ . '/../resources/css/responsive.css');
-            Nova::script('nova-styling', __DIR__ . '/../resources/js/responsive.js');
+            Nova::style('nova-styling',  __DIR__ . '/../dist/css/responsive.css');
+            Nova::script('nova-styling', __DIR__ . '/../dist/js/responsive.js');
             Nova::style('nova-styling', __DIR__ . '/../dist/css/dark.css');
             Nova::script('nova-styling', __DIR__ . '/../dist/js/dark.js');
             Nova::provideToScript([
@@ -49,6 +49,7 @@ class ThemeServiceProvider extends ServiceProvider
 
         // Sets CSS file as asset
         Nova::theme(asset('vendor/marshmallow/nova-styling/marshmallow-theme.css'));
+        Nova::theme(asset('vendor/marshmallow/nova-styling/responsive.css'));
     }
 
     /**
