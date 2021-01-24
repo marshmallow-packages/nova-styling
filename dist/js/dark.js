@@ -282,7 +282,7 @@ exports = module.exports = __webpack_require__(6)(false);
 
 
 // module
-exports.push([module.i, "\n.dark-mode-toggle[data-v-0f57d7c0] {\n    position: fixed;\n    bottom: 0px;\n    right: 0px;\n    width: 50px;\n    background: #fc143c;\n    border-radius: .6rem 0 0;\n    padding: 1rem .6rem .6rem .8rem;\n}\n.nova-dark-theme .dark-mode-toggle[data-v-0f57d7c0] {\n    background: #161c22;\n}\n.dark-mode-toggle[data-v-0f57d7c0]:hover {\n    background-color: #fc4462;\n}\n.dark-mode-toggle[data-v-0f57d7c0]:focus {\n    outline: none;\n}\n.nova-dark-theme .dark-mode-toggle[data-v-0f57d7c0]:hover{\n    background: #0e1217;\n}\n.dark-mode-active[data-v-0f57d7c0] {\n    margin-bottom: -2px;\n    color: #ffc107;\n}\n.dark-mode-disabled[data-v-0f57d7c0] {\n    margin-bottom: -2px;\n    -webkit-transform: rotate(180deg);\n            transform: rotate(180deg);\n    color: rgb(255 255 255);\n}\n", ""]);
+exports.push([module.i, "\n.dark-mode-toggle[data-v-0f57d7c0] {\n    position: fixed;\n    bottom: 0px;\n    right: 0px;\n    width: 50px;\n    height: 50px;\n    background: #fc143c;\n    border-radius: .6rem 0 0;\n    padding: 1rem .6rem .6rem .8rem;\n}\n.nova-dark-theme .dark-mode-toggle[data-v-0f57d7c0] {\n    background: #161c22;\n}\n.dark-mode-toggle[data-v-0f57d7c0]:hover {\n    background-color: #fc4462;\n}\n.dark-mode-toggle[data-v-0f57d7c0]:focus {\n    outline: none;\n}\n.nova-dark-theme .dark-mode-toggle[data-v-0f57d7c0]:hover{\n    background: #0e1217;\n}\n.dark-mode-active[data-v-0f57d7c0] {\n    margin-bottom: -2px;\n    color: #ffc107;\n}\n.dark-mode-disabled[data-v-0f57d7c0] {\n    margin-bottom: -2px;\n    -webkit-transform: rotate(180deg);\n            transform: rotate(180deg);\n    color: rgb(255 255 255);\n}\n", ""]);
 
 // exports
 

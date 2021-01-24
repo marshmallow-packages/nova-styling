@@ -59,6 +59,7 @@
     bottom: 0px;
     right: 0px;
     width: 50px;
+    height: 50px;
     background: #fc143c;
     border-radius: .6rem 0 0;
     padding: 1rem .6rem .6rem .8rem;
