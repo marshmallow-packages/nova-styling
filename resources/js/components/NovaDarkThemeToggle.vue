@@ -35,6 +35,11 @@
             this.darkThemeOn = localStorage.darkThemeOn === "true";
             if (localStorage.darkThemeOn === "true") {
                 document.querySelector('html').classList.add('nova-dark-theme');
+                document.querySelector('body').classList.add('nova-dark-theme');
+            }
+            if (localStorage.darkThemeOn === "false") {
+                document.querySelector('html').classList.remove('nova-dark-theme');
+                document.querySelector('body').classList.remove('nova-dark-theme');
             }
         },
         methods: {
@@ -42,6 +47,7 @@
                 this.darkThemeOn = !this.darkThemeOn;
                 localStorage.darkThemeOn = this.darkThemeOn.toString();
                 document.querySelector('html').classList.toggle('nova-dark-theme');
+                document.querySelector('body').classList.toggle('nova-dark-theme');
             }
         }
     }

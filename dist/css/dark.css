@@ -1,31 +1,108 @@
 html.nova-dark-theme {
   background: #06090f !important;
+}
+
+.nova-dark-theme html {
+  background: #0d1117 !important;
   height: auto !important;
 }
 
-:root {
-  --white: #0d1117;
-  --bg-20: #a0aec0;
-  --bg-40: #88929c;
-  --bg-60: #cfd3d8;
-  REMOVE--20: #354256;
-  REMOVE--30: #252f3d;
-  REMOVE--40: #424e62;
-  REMOVE--50: #3d4d62;
-  REMOVE--60: #4a5568;
-  REMOVE--70: #eeeeee;
-  REMOVE--80: #d8d8d8;
-  REMOVE--90: #cbd5e0;
+.nova-dark-theme .bg-logo {
+  background-image: -webkit-gradient(linear, left bottom, left top, from(#eeeeee), to(#fff));
+  background-image: linear-gradient(0deg, #eeeeee 0%, #fff 100%);
 }
 
-.nova-dark-theme .btn-primary {
-  color: #c9d1d9;
+.nova-dark-theme .w-sidebar * {
+  color: #0d1117 !important;
+}
+
+.nova-dark-theme .bg-grad-sidebar {
+  background-image: -webkit-gradient(linear, left bottom, left top, from(#0d1117), to(#0d1117));
+}
+
+.nova-dark-theme .table td {
+  color: #eeeeee;
+  border-color: #30363d;
+}
+
+.nova-dark-theme .bg-white {
+  background-color: #0d1117;
+}
+
+.nova-dark-theme .table th {
+  background-color: #0d1117;
+  color: #eeeeee;
+  border-color: #30363d;
+}
+
+.nova-dark-theme .table tr:hover td {
+  background-color: #0d1117;
+}
+
+.nova-dark-theme .bg-30 {
+  background-color: #161b22;
+}
+
+.nova-dark-theme .tooltip {
+  background-color: #0d1117;
+  border-color: #161b22;
+}
+
+.nova-dark-theme .border-30 {
+  border-color: #30363d;
+}
+
+.nova-dark-theme .bg-40 {
+  background-color: #0d1117;
+}
+
+.nova-dark-theme .text-80 {
+  color: #cfd3d8;
+}
+
+.nova-dark-theme .border-40 {
+  border-color: #060910;
+}
+
+.nova-dark-theme .form-input:focus {
+  background-color: #060910;
+}
+
+.nova-dark-theme .hover\:bg-30:hover {
+  background-color: #060910;
+}
+
+.nova-dark-theme .form-select {
+  background-color: #0e1217;
+  border-color: #161b22;
+}
+
+.nova-dark-theme .border-60 {
+  border-color: #0e1217;
+}
+
+.nova-dark-theme .form-input-bordered,
+.nova-dark-theme .form-input-row {
+  background-color: #060910;
+  color: #cfd3d8;
 }
 
 .nova-dark-theme .form-global-search,
 .nova-dark-theme input {
   border-color: #4a5568;
-  background: #0d1117;
+  background: #060910;
+}
+
+.nova-dark-theme .form-input-bordered {
+  border-color: #4a5668;
+}
+
+.nova-dark-theme .bg-20 {
+  background-color: #161b22;
+}
+
+.nova-dark-theme .card {
+  background-color: #161b22;
 }
 
 .nova-dark-theme body {
@@ -84,10 +161,6 @@ html.nova-dark-theme {
 }
 
 .nova-dark-theme .border-50 {
-  border-color: #4a5568;
-}
-
-html.nova-dark-theme {
-  background: #06090f !important;
+  border-color: #30363d;
 }
 

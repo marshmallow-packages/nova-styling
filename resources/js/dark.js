@@ -8,4 +8,7 @@ Nova.booting((Vue, router) => {
 if (localStorage.darkThemeOn === "true") {
     document.querySelector("html").classList.add("nova-dark-theme");
     document.querySelector("body").classList.add("nova-dark-theme");
+} else {
+    document.querySelector("html").classList.remove("nova-dark-theme");
+    document.querySelector("body").classList.remove("nova-dark-theme");
 }
