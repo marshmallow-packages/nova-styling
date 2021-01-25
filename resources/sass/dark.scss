@@ -1,28 +1,65 @@
 html.nova-dark-theme {
-    background: #06090f !important;
+    background-color: #06090f !important;
 }
 
 .nova-dark-theme {
     html {
-        background: #0d1117 !important;
-        // filter: invert(100%) contrast(90%) hue-rotate(180deg);
+        background-color: #0d1117 !important;
         height: auto !important;
     }
 
-    img {
-        // filter: invert(100%) hue-rotate(180deg);
+    body {
+        background-color: #06090f !important;
+        height: auto !important;
     }
 
     .dark-mode-toggle {
         background-color: #0e1217;
     }
 
-    .bg-logo {
-        background-image: linear-gradient(0deg, #eeeeee 0%, #fff 100%);
+    .bg-white {
+        background-color: #0d1117;
     }
 
     .w-sidebar * {
-        color: #0d1117 !important;
+        color: #c9d1d9 !important;
+
+        &:hover {
+            color: #ff113b !important;
+            opacity: 1;
+        }
+    }
+
+    .multiselect__option--highlight, .multiselect__option--highlight::after {
+        background-color: #ff113b;
+        background: #ff113b;
+    }
+
+    .bg-logo {
+        background-color: #161b22;
+        color: #ff113b !important;
+    }
+
+    a {
+        color: #5c7aff;
+        text-decoration: none;
+        &:hover {
+            text-decoration: underline;
+        }
+        &:visited {
+            color: #8d69f7;
+        }
+    }
+
+    .markdown {
+        background-color: #ffff !important;
+    }
+
+    .text-primary, .cursor-pointer:hover {
+        color: #ff113b !important;
+    }
+    .btn-primary {
+        color: #ffff !important;
     }
 
     .bg-grad-sidebar {
@@ -33,15 +70,12 @@ html.nova-dark-theme {
             from(#0d1117),
             to(#0d1117)
         );
+        background-color: #0d1117;
     }
 
     .table td {
         color: #eeeeee;
         border-color: #30363d;
-    }
-
-    .bg-white {
-        background-color: #0d1117;
     }
 
     .table th {
@@ -50,39 +84,65 @@ html.nova-dark-theme {
         border-color: #30363d;
     }
 
-    .table tr:hover td {
-        background-color: #0d1117;
+     .flex.items-center.relative.shadow.h-header.bg-white.z-20.px-view {
+        background-color: #0f1217;
+    }
+
+    .bg-20, .card, .btn-white, .multiselect__spinner {
+        background-color: #161b22;
     }
 
     .bg-30 {
         background-color: #161b22;
+
+        &:hover {
+            background-color: #060910;
+        }
     }
 
-    .tooltip {
+    .bg-40, .table tr:hover td, .tooltip, .multiselect__content-wrapper {
         background-color: #0d1117;
-        border-color: #161b22;
     }
 
-    .border-30 {
+    .border-30, .border-50 {
         border-color: #30363d;
-    }
-
-    .bg-40 {
-        background-color: #0d1117;
-    }
-
-    .text-80 {
-        color: #cfd3d8;
     }
 
     .border-40 {
         border-color: #060910;
     }
 
-    .form-input:focus {
-        background-color: #060910;
+    .border-60, .border-70 {
+        border-color: #0e1217;
     }
 
+    .text-60, .text-70 {
+        color: #626a71;
+    }
+
+    .text-80, .text-90  {
+        color: #cfd3d8;
+    }
+
+    .relationship-tabs-panel .tab {
+        color: #cfd3d8;
+        &:hover {
+        color: #ff113b;
+        }
+
+    }
+
+    .btn-outline {
+        color: #ff113b;
+    }
+
+    .tooltip,
+    .multiselect__content-wrapper {
+        border-color: #161b22;
+        color: #cfd3d8;
+    }
+
+    .form-input:focus,
     .form-global-search:active,
     .form-global-search:focus,
     .form-search:active,
@@ -90,74 +150,45 @@ html.nova-dark-theme {
         background-color: #060910;
     }
 
-    .btn-white {
-        background-color: #161b22;
-    }
-
-    .hover\:bg-30:hover {
-        background-color: #060910;
-    }
-
-    .form-select {
+    .form-select, .tabs-wrap {
         background-color: #0e1217;
         border-color: #161b22;
     }
 
-    .btn-primary {
-        // color: #c9d1d9;
-    }
-
-    .border-60 {
-        border-color: #0e1217;
-    }
-
     .form-input-bordered,
+    .multiselect__input,
+    .multiselect__tags,
+    .multiselect__single,
+    .multiselect,
     .form-input-row {
         background-color: #0e1217;
         color: #cfd3d8;
+        border-color: #2e3235;
+    }
+
+    .multiselect__tags {
+        border-color: #2e3235 !important;
     }
 
     .form-global-search,
     input {
         border-color: #535c67;
-        background: #161b22;
+        background-color: #161b22;
         color: #cfd3d8;
     }
 
-    .nova-dark-theme .w-sidebar *:hover {
-        color: #ff113b !important;
-        opacity: 1;
-    }
-
-    .form-input-bordered {
+    .form-input-bordered,
+     .multiselect__content-wrapper,
+      .multiselect__tags {
         border-color: #2e3235;
-    }
-
-    .text-60 {
-        color: #626a71;
-    }
-
-    .bg-20 {
-        background-color: #161b22;
     }
 
     .checkbox:checked {
         background-color: #060910;
     }
 
-    .card {
-        // background-color: #0d1117;
-        background-color: #161b22;
-    }
-
     select {
         color: #cfd3d8;
-    }
-
-    body {
-        background: #06090f !important;
-        // filter: invert(100%) contrast(90%) hue-rotate(180deg);
-        height: auto !important;
     }
 
     .bg-gray-800 {
@@ -186,27 +217,5 @@ html.nova-dark-theme {
         color: rgba(203, 213, 224, var(--text-opacity));
     }
 
-    .flex.items-center.relative.shadow.h-header.bg-white.z-20.px-view {
-        background: #0f1217;
-    }
 
-    .bg-logo {
-        background: #161b22;
-        color: white;
-    }
-
-    .w-sidebar * {
-        color: #c9d1d9 !important;
-    }
-    .bg-grad-sidebar {
-        background: #0d1117;
-    }
-
-    .text-90 {
-        color: #cfd3d8;
-    }
-
-    .border-50 {
-        border-color: #30363d;
-    }
 }
