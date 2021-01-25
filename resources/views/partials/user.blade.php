@@ -1,4 +1,5 @@
 <dropdown-trigger class="h-9 flex items-center p-relative">
+
     <img src="https://marshmallow.dev/cdn/media/mrmallow-250x250.png" class="mrmallow rounded-full w-8 h-8 mr-3"/>
 
     @if (class_exists('\Marshmallow\Translatable\Models\Language'))
