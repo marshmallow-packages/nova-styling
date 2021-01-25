@@ -2,9 +2,9 @@
 
 namespace Marshmallow\NovaStyling;
 
-use Illuminate\Support\ServiceProvider;
-use Laravel\Nova\Events\ServingNova;
 use Laravel\Nova\Nova;
+use Laravel\Nova\Events\ServingNova;
+use Illuminate\Support\ServiceProvider;
 
 class ThemeServiceProvider extends ServiceProvider
 {
@@ -22,11 +22,13 @@ class ThemeServiceProvider extends ServiceProvider
     {
         // JS for Responsive design
         Nova::serving(function (ServingNova $event) {
-            Nova::style('nova-styling',  __DIR__ . '/../resources/css/responsive.css');
-            Nova::script('nova-styling', __DIR__ . '/../resources/js/responsive.js');
+            Nova::style('nova-styling',  __DIR__ . '/../dist/css/responsive.css');
+            Nova::style('nova-styling', __DIR__ . '/../dist/css/dark.css');
+            Nova::script('nova-styling', __DIR__ . '/../dist/js/theme.js');
             Nova::provideToScript([
                 'mmns' => config('nova-styling'),
             ]);
+
         });
 
         // Publishes Config
@@ -46,6 +48,7 @@ class ThemeServiceProvider extends ServiceProvider
 
         // Sets CSS file as asset
         Nova::theme(asset('vendor/marshmallow/nova-styling/marshmallow-theme.css'));
+        Nova::theme(asset('vendor/marshmallow/nova-styling/responsive.css'));
     }
 
     /**

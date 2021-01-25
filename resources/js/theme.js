@@ -1,3 +1,19 @@
+Nova.booting((Vue, router) => {
+    Vue.component(
+        "nova-dark-theme-toggle",
+        require("./components/NovaDarkThemeToggle")
+    );
+});
+
+if (localStorage.darkThemeOn === "true") {
+    document.querySelector("html").classList.add("nova-dark-theme");
+    document.querySelector("body").classList.add("nova-dark-theme");
+} else {
+    document.querySelector("html").classList.remove("nova-dark-theme");
+    document.querySelector("body").classList.remove("nova-dark-theme");
+}
+
+
 function load() {
     // Set viewport
     var viewport = document.querySelector("meta[name=viewport]");
@@ -26,7 +42,6 @@ function load() {
         },
         true
     );
-
 
     var sidebarLinks = document.querySelectorAll(
         ".w-sidebar a, .w-sidebar .cursor-pointer:not(.nc-head), .w-sidebar .nc-item-link"

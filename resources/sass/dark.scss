@@ -1,0 +1,212 @@
+html.nova-dark-theme {
+    background: #06090f !important;
+}
+
+.nova-dark-theme {
+    html {
+        background: #0d1117 !important;
+        // filter: invert(100%) contrast(90%) hue-rotate(180deg);
+        height: auto !important;
+    }
+
+    img {
+        // filter: invert(100%) hue-rotate(180deg);
+    }
+
+    .dark-mode-toggle {
+        background-color: #0e1217;
+    }
+
+    .bg-logo {
+        background-image: linear-gradient(0deg, #eeeeee 0%, #fff 100%);
+    }
+
+    .w-sidebar * {
+        color: #0d1117 !important;
+    }
+
+    .bg-grad-sidebar {
+        background-image: -webkit-gradient(
+            linear,
+            left bottom,
+            left top,
+            from(#0d1117),
+            to(#0d1117)
+        );
+    }
+
+    .table td {
+        color: #eeeeee;
+        border-color: #30363d;
+    }
+
+    .bg-white {
+        background-color: #0d1117;
+    }
+
+    .table th {
+        background-color: #0d1117;
+        color: #eeeeee;
+        border-color: #30363d;
+    }
+
+    .table tr:hover td {
+        background-color: #0d1117;
+    }
+
+    .bg-30 {
+        background-color: #161b22;
+    }
+
+    .tooltip {
+        background-color: #0d1117;
+        border-color: #161b22;
+    }
+
+    .border-30 {
+        border-color: #30363d;
+    }
+
+    .bg-40 {
+        background-color: #0d1117;
+    }
+
+    .text-80 {
+        color: #cfd3d8;
+    }
+
+    .border-40 {
+        border-color: #060910;
+    }
+
+    .form-input:focus {
+        background-color: #060910;
+    }
+
+    .form-global-search:active,
+    .form-global-search:focus,
+    .form-search:active,
+    .form-search:focus {
+        background-color: #060910;
+    }
+
+    .btn-white {
+        background-color: #161b22;
+    }
+
+    .hover\:bg-30:hover {
+        background-color: #060910;
+    }
+
+    .form-select {
+        background-color: #0e1217;
+        border-color: #161b22;
+    }
+
+    .btn-primary {
+        // color: #c9d1d9;
+    }
+
+    .border-60 {
+        border-color: #0e1217;
+    }
+
+    .form-input-bordered,
+    .form-input-row {
+        background-color: #0e1217;
+        color: #cfd3d8;
+    }
+
+    .form-global-search,
+    input {
+        border-color: #535c67;
+        background: #161b22;
+        color: #cfd3d8;
+    }
+
+    .nova-dark-theme .w-sidebar *:hover {
+        color: #ff113b !important;
+        opacity: 1;
+    }
+
+    .form-input-bordered {
+        border-color: #2e3235;
+    }
+
+    .text-60 {
+        color: #626a71;
+    }
+
+    .bg-20 {
+        background-color: #161b22;
+    }
+
+    .checkbox:checked {
+        background-color: #060910;
+    }
+
+    .card {
+        // background-color: #0d1117;
+        background-color: #161b22;
+    }
+
+    select {
+        color: #cfd3d8;
+    }
+
+    body {
+        background: #06090f !important;
+        // filter: invert(100%) contrast(90%) hue-rotate(180deg);
+        height: auto !important;
+    }
+
+    .bg-gray-800 {
+        --bg-opacity: 1;
+        background-color: #0d1117;
+        background-color: rgba(45, 55, 72, var(--bg-opacity));
+    }
+    .bg-gray-900 {
+        --bg-opacity: 1;
+        background-color: #06090f;
+        background-color: rgba(26, 32, 44, var(--bg-opacity));
+    }
+    .border-gray-700 {
+        --border-opacity: 1;
+        border-color: #30363d;
+        border-color: rgba(74, 85, 104, var(--border-opacity));
+    }
+    .text-white {
+        --text-opacity: 1;
+        color: #c9d1d9;
+        color: rgba(255, 255, 255, var(--text-opacity));
+    }
+    .text-gray-400 {
+        --text-opacity: 1;
+        color: #88929c;
+        color: rgba(203, 213, 224, var(--text-opacity));
+    }
+
+    .flex.items-center.relative.shadow.h-header.bg-white.z-20.px-view {
+        background: #0f1217;
+    }
+
+    .bg-logo {
+        background: #161b22;
+        color: white;
+    }
+
+    .w-sidebar * {
+        color: #c9d1d9 !important;
+    }
+    .bg-grad-sidebar {
+        background: #0d1117;
+    }
+
+    .text-90 {
+        color: #cfd3d8;
+    }
+
+    .border-50 {
+        border-color: #30363d;
+    }
+}
