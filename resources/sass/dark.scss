@@ -13,6 +13,17 @@ html.nova-dark-theme {
         height: auto !important;
     }
 
+    .hamburger-menu:before {
+        background: linear-gradient(
+                to bottom,
+                white, white 20%,
+                black 20%, black 40%,
+                white 40%, white 60%,
+                black 60%, black 80%,
+                white 80%, white 100%
+        );
+    }
+
     .dark-mode-toggle {
         background-color: #0e1217;
     }

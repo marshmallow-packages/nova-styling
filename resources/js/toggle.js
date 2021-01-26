@@ -1,5 +1,4 @@
 function darkTheme() {
-    // If not already added by user, add the toggle just above logout link in top menu
 
     var toggle = document.querySelector(".dark-theme-toggle");
 
