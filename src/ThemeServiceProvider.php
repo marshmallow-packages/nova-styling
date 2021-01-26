@@ -39,12 +39,12 @@ class ThemeServiceProvider extends ServiceProvider
         // Views
         $this->publishes([
             self::NOVA_VIEWS_PATH => resource_path('views/vendor/nova'),
-        ]);
+        ], 'views');
 
         // Publish Public CSS for login screen
         $this->publishes([
             self::CSS_PATH => public_path('vendor/marshmallow/nova-styling'),
-        ], 'public');
+        ], 'styling');
 
         // Sets CSS file as asset
         Nova::theme(asset('vendor/marshmallow/nova-styling/marshmallow-theme.css'));
