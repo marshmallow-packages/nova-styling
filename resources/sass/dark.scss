@@ -86,6 +86,10 @@ html.nova-dark-theme {
     .text-primary,
     .cursor-pointer:hover {
         color: #ff113b !important;
+
+        &:visited {
+            color: inherit !important;
+        }
     }
     .btn-primary {
         color: #ffff !important;
