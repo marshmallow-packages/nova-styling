@@ -1,1 +1,407 @@
-.hamburger-menu{cursor:pointer;position:relative;height:19px;display:none}html:not([dir=rtl]) .hamburger-menu{padding-left:1.25em;margin-right:9px}html[dir=rtl] .hamburger-menu{padding-right:1.25em;margin-left:9px}.hamburger-menu:before{content:"";position:absolute;top:.21em;bottom:.21em;width:1em;background:linear-gradient(to bottom,#000,#000 20%,#fff 20%,#fff 40%,#000 40%,#000 60%,#fff 60%,#fff 80%,#000 80%,#000 100%)}html:not([dir=rtl]) .hamburger-menu:before{left:0}html[dir=rtl] .hamburger-menu:before{right:0}.content.hide-update-and-continue-editing-button button[dusk$=update-and-continue-editing-button]{display:none}.content.sticky-actions .card table.w-full tbody tr td:last-child,.content.sticky-actions .card table.w-full thead tr th:last-child{position:-webkit-sticky;position:-moz-sticky;position:-ms-sticky;position:-o-sticky;position:sticky;right:0}.content.sticky-actions .card table.w-full tbody tr td:last-child{background:#fff}.content.sticky-actions .card table.w-full tbody tr td:last-child:before{content:'';height:100%;top:0;margin-left:-.75rem;position:absolute;border-left:1px solid #eee}@media (min-width:992px){body.fixed-sidebar .bg-grad-sidebar{position:fixed;padding-top:5.5rem!important;overflow:auto;height:100%}body.fixed-sidebar .content{padding-left:13.75rem;max-width:100%}}@media (max-width:80rem){.min-w-site{min-width:auto}.content{min-width:auto;width:100%}.content.sticky-actions-on-mobile .card table.w-full tbody tr td:last-child,.content.sticky-actions-on-mobile .card table.w-full thead tr th:last-child{position:-webkit-sticky;position:-moz-sticky;position:-ms-sticky;position:-o-sticky;position:sticky;right:0}.content.sticky-actions-on-mobile .card table.w-full tbody tr td:last-child{background:#fff}.content.sticky-actions-on-mobile .card table.w-full tbody tr td:last-child:before{content:'';height:100%;top:0;margin-left:-.75rem;position:absolute;border-left:1px solid #eee}}@media (max-width:992px){.w-sidebar{position:fixed;padding-top:5.5rem!important;z-index:30;height:100%;overflow:auto}.w-sidebar.pt-header{padding-top:1.75rem}.sidebar-hidden{display:none}.h-header{z-index:40;position:fixed;width:100%;margin-top:-3.75rem}.hamburger-menu{display:block}html:not([dir=rtl]) .hamburger-menu{margin-right:1rem}html[dir=rtl] .hamburger-menu{margin-left:1rem}.bg-logo{display:none!important}html:not([dir=rtl]) .h-header .dropdown-trigger{margin-right:-20px}html[dir=rtl] .h-header .dropdown-trigger{margin-left:-20px}.h-header .dropdown-trigger span,.h-header .dropdown-trigger svg{display:none}html:not([dir=rtl]) .h-header .dropdown-trigger img.mr-3{margin-right:2em}html[dir=rtl] .h-header .dropdown-trigger img.mr-3{margin-right:2em}span.hamburger-menu+a{display:none}.h-header .pl-search{width:85%}.content{padding-top:3.75rem;max-width:none}.content .px-view{padding-left:1.125rem;padding-right:1.125rem}.content .py-view{padding-top:1.125rem;padding-bottom:1.125rem}form .w-1\/2{width:80%}form .w-1\/2>div.flex{display:flex;flex-wrap:nowrap}form>.flex{display:block}form>.flex>button{margin-bottom:10px}.content.hide-update-and-continue-editing-button-on-mobile button[dusk$=update-and-continue-editing-button]{display:none}.content form .card>.flex,div[dusk$=detail-component] .card>.flex{display:block}.content form .card>.flex>div,div[dusk$=detail-component] .card>.flex>div{width:100%}.content form .card>.flex>.py-6,div[dusk$=detail-component] .card>.flex>.py-4{padding-top:.5rem;padding-bottom:0}.content form .card>.flex>.py-6,div[dusk$=detail-component] .card>.flex.bg-20>.py-4{padding-bottom:.5rem}.content form .card>.flex>.py-6+.py-6,div[dusk$=detail-component] .card>.flex>.py-4+.py-4{padding-bottom:.5rem}.card>form>div header.flex{display:block}.card>form>div header.flex ul:first-child{border-bottom:1px solid var(--60)}html:not([dir=rtl]) .card>form>div header.flex ul:nth-child(2) button:first-child{border-left:none}html[dir=rtl] .card>form>div header.flex ul:nth-child(2) button:first-child{border-right:none}html:not([dir=rtl]) .card>form>div header.flex ul:nth-child(2) button:last-child{border-right:1px solid var(--60)}html[dir=rtl] .card>form>div header.flex ul:nth-child(2) button:last-child{border-left:1px solid var(--60)}.card>form>div div.pin{z-index:2000}trix-toolbar .trix-button-row{display:inline-block!important}html:not([dir=rtl]) trix-toolbar .trix-button-group{float:left!important}html[dir=rtl] trix-toolbar .trix-button-group{float:right!important}.content .flex-wrap>.w-1\/2,.content .flex-wrap>.w-1\/3,.content .flex-wrap>.w-1\/4,.content .flex-wrap>.w-1\/5,.content .flex-wrap>.w-1\/6,.content .flex-wrap>.w-2\/3,.content .flex-wrap>.w-2\/5,.content .flex-wrap>.w-3\/4,.content .flex-wrap>.w-3\/5,.content .flex-wrap>.w-4\/5,.content .flex-wrap>.w-5\/6{width:100%}.content .card table td.w-1\/2{display:table-row}.btn{white-space:nowrap}div[dusk$=index-component] .pl-search{width:auto}div[dusk$=index-component] .btn[dusk=attach-button],div[dusk$=index-component] .btn[dusk=create-button]{font-weight:bolder;font-size:26px;padding:0 12px;width:39px;overflow:hidden}div[dusk$=index-component] .btn[dusk=attach-button]::before,div[dusk$=index-component] .btn[dusk=create-button]::before{content:"+";position:relative}html:not([dir=rtl]) div[dusk$=index-component] .btn[dusk=attach-button]::before,html:not([dir=rtl]) div[dusk$=index-component] .btn[dusk=create-button]::before{margin-right:20px}html[dir=rtl] div[dusk$=index-component] .btn[dusk=attach-button]::before,html[dir=rtl] div[dusk$=index-component] .btn[dusk=create-button]::before{margin-left:20px}.modal{top:auto}.modal form{width:100%!important}div[dusk$=index-component]>div.card>div.py-3.flex.items-center.border-b.border-50{padding-bottom:.35rem}div[dusk$=detail-component]>div>div.flex.items-center.mb-3{display:block}div[dusk$=detail-component]>div>div.flex.items-center.mb-3>h4{position:absolute}div[dusk$=detail-component]>div>div.flex.items-center.mb-3>div.ml-3.w-full.flex.items-center,div[dusk$=index-component]>div.card>div.py-3.flex.items-center.border-b.border-50>div.flex.items-center.ml-auto.px-3{display:inline-block}div[dusk$=detail-component]>div>div.flex.items-center.mb-3>div.ml-3.w-full.flex.items-center{display:inline-block;padding-top:1.5rem}div[dusk$=detail-component]>div>div.flex.items-center.mb-3>div.ml-3.w-full.flex.items-center>a,div[dusk$=detail-component]>div>div.flex.items-center.mb-3>div.ml-3.w-full.flex.items-center>button,div[dusk$=detail-component]>div>div.flex.items-center.mb-3>div.ml-3.w-full.flex.items-center>div,div[dusk$=index-component]>div.card>div.py-3.flex.items-center.border-b.border-50>div.flex.items-center.ml-auto.px-3>div{display:inline-flex;vertical-align:top;margin-bottom:.4rem}html:not([dir=rtl]) div[dusk$=detail-component]>div>div.flex.items-center.mb-3>div.ml-3.w-full.flex.items-center>div.ml-3{margin-left:0}html[dir=rtl] div[dusk$=detail-component]>div>div.flex.items-center.mb-3>div.ml-3.w-full.flex.items-center>div.ml-3{margin-right:0}}@media (max-width:500px){select[dusk=action-select]{width:8.9rem}}@media (max-width:310px){select[dusk=action-select]{width:5.6rem}}@media (max-height:610px){.z-50.open .scroll-wrap{max-height:270px!important}}@media (max-height:540px){.z-50.open .scroll-wrap{max-height:180px!important}}@media (max-height:440px){.z-50.open .scroll-wrap{max-height:110px!important}}
+/* Responsive theme by Gregoriohc/laravel-nova-theme-responsive */
+.hamburger-menu {
+    cursor: pointer;
+    position: relative;
+    height: 19px;
+    display: none;
+}
+html:not([dir="rtl"]) .hamburger-menu {
+    padding-left: 1.25em;
+    margin-right: 9px;
+}
+html[dir="rtl"] .hamburger-menu {
+    padding-right: 1.25em;
+    margin-left: 9px;
+}
+
+.hamburger-menu:before {
+    content: "";
+    position: absolute;
+    top: 0.21em;
+    bottom: 0.21em;
+    width: 1em;
+    background: linear-gradient(
+            to bottom,
+            black, black 20%,
+            white 20%, white 40%,
+            black 40%, black 60%,
+            white 60%, white 80%,
+            black 80%, black 100%
+    );
+}
+html:not([dir="rtl"]) .hamburger-menu:before {
+    left: 0;
+}
+html[dir="rtl"] .hamburger-menu:before {
+    right: 0;
+}
+
+.content.hide-update-and-continue-editing-button button[dusk$='update-and-continue-editing-button'] {
+    display: none;
+}
+
+/* Resource tables */
+.content.sticky-actions .card table.w-full tbody tr td:last-child, .content.sticky-actions .card table.w-full thead tr th:last-child {
+    position: -webkit-sticky;
+    position: -moz-sticky;
+    position: -ms-sticky;
+    position: -o-sticky;
+    position: sticky;
+    right: 0;
+}
+
+.content.sticky-actions .card table.w-full tbody tr td:last-child {
+    background: white;
+}
+
+.content.sticky-actions .card table.w-full tbody tr td:last-child:before {
+    content: '';
+    height: 100%;
+    top: 0;
+    margin-left: -.75rem;
+    position: absolute;
+    border-left: 1px solid #eee;
+}
+
+@media (min-width: 992px) {
+    body.fixed-sidebar .bg-grad-sidebar {
+        position: fixed;
+        padding-top: 5.5rem !important;
+        overflow: auto;
+        height: 100%;
+    }
+
+    body.fixed-sidebar .content {
+        padding-left: 13.75rem;
+        max-width: 100%;
+    }
+}
+
+@media (max-width: 80rem) {
+    .min-w-site {
+        min-width: auto;
+    }
+
+    .content {
+        min-width: auto;
+        width: 100%;
+    }
+
+    /* Resource tables */
+    .content.sticky-actions-on-mobile .card table.w-full tbody tr td:last-child, .content.sticky-actions-on-mobile .card table.w-full thead tr th:last-child {
+        position: -webkit-sticky;
+        position: -moz-sticky;
+        position: -ms-sticky;
+        position: -o-sticky;
+        position: sticky;
+        right: 0;
+    }
+
+    .content.sticky-actions-on-mobile .card table.w-full tbody tr td:last-child {
+        background: white;
+    }
+
+    .content.sticky-actions-on-mobile .card table.w-full tbody tr td:last-child:before {
+        content: '';
+        height: 100%;
+        top: 0;
+        margin-left: -.75rem;
+        position: absolute;
+        border-left: 1px solid #eee;
+    }
+}
+
+@media (max-width: 992px) {
+    /* Sidebar */
+    .w-sidebar {
+        position: fixed;
+        padding-top: 5.5rem !important;
+        z-index: 30;
+        height: 100%;
+        overflow: auto;
+    }
+
+    .w-sidebar.pt-header {
+        padding-top: 1.75rem;
+    }
+
+    .sidebar-hidden {
+        display: none;
+    }
+
+    /* Header */
+    .h-header {
+        z-index: 40;
+        position: fixed;
+        width: 100%;
+        margin-top: -3.75rem;
+    }
+
+    .hamburger-menu {
+        display: block;
+    }
+    html:not([dir="rtl"]) .hamburger-menu {
+        margin-right: 1rem;
+    }
+    html[dir="rtl"] .hamburger-menu {
+        margin-left: 1rem;
+    }
+
+    .bg-logo {
+        display: none !important;
+    }
+
+    html:not([dir="rtl"]) .h-header .dropdown-trigger {
+        margin-right: -20px;
+    }
+    html[dir="rtl"] .h-header .dropdown-trigger {
+        margin-left: -20px;
+    }
+
+    .h-header .dropdown-trigger span, .h-header .dropdown-trigger svg {
+        display: none;
+    }
+
+    html:not([dir="rtl"]) .h-header .dropdown-trigger img.mr-3 {
+        margin-right: 2em;
+    }
+    html[dir="rtl"] .h-header .dropdown-trigger img.mr-3 {
+        margin-right: 2em;
+    }
+
+
+    span.hamburger-menu + a {
+        display: none;
+    }
+
+    .h-header .pl-search {
+        width: 85%;
+    }
+
+    /* Content */
+    .content {
+        padding-top: 3.75rem;
+        max-width: none;
+    }
+
+    .content .px-view {
+        padding-left: 1.125rem;
+        padding-right: 1.125rem;
+    }
+
+    .content .py-view {
+        padding-top: 1.125rem;
+        padding-bottom: 1.125rem;
+    }
+
+    /* Forms */
+    form .w-1\/2 {
+        width: 80%;
+    }
+
+    form .w-1\/2 > div.flex {
+       display: flex;
+       flex-wrap: nowrap;
+    }
+
+    form > .flex {
+        display: block;
+    }
+
+    form > .flex > button {
+        margin-bottom: 10px;
+    }
+
+    .content.hide-update-and-continue-editing-button-on-mobile button[dusk$='update-and-continue-editing-button'] {
+        display: none;
+    }
+
+    .content form .card > .flex,
+    div[dusk$='detail-component'] .card > .flex{
+        display: block;
+    }
+    .content form .card > .flex > div,
+    div[dusk$='detail-component'] .card > .flex > div {
+        width: 100%;
+    }
+
+    .content form .card > .flex > .py-6,
+    div[dusk$='detail-component'] .card > .flex > .py-4 {
+        padding-top: .5rem;
+        padding-bottom: 0;
+    }
+
+    .content form .card > .flex > .py-6,
+    div[dusk$='detail-component'] .card > .flex.bg-20 > .py-4 {
+        padding-bottom: .5rem;
+    }
+
+    .content form .card > .flex > .py-6 + .py-6,
+    div[dusk$='detail-component'] .card > .flex > .py-4 + .py-4 {
+        padding-bottom: .5rem;
+    }
+
+    .card > form > div header.flex {
+        display: block;
+    }
+
+    .card > form > div header.flex ul:first-child {
+        border-bottom: 1px solid var(--60);
+    }
+
+    html:not([dir="rtl"]) .card > form > div header.flex ul:nth-child(2) button:first-child {
+        border-left: none;
+    }
+    html[dir="rtl"] .card > form > div header.flex ul:nth-child(2) button:first-child {
+        border-right: none;
+    }
+
+    html:not([dir="rtl"]) .card > form > div header.flex ul:nth-child(2) button:last-child {
+        border-right: 1px solid var(--60);
+    }
+    html[dir="rtl"] .card > form > div header.flex ul:nth-child(2) button:last-child {
+        border-left: 1px solid var(--60);
+    }
+
+    .card > form > div div.pin {
+        z-index: 2000;
+    }
+
+    trix-toolbar .trix-button-row {
+        display: inline-block !important;
+    }
+
+    html:not([dir="rtl"]) trix-toolbar .trix-button-group {
+        float: left !important;
+    }
+    html[dir="rtl"] trix-toolbar .trix-button-group {
+        float: right !important;
+    }
+
+    /* Cards */
+    .content .flex-wrap > .w-1\/2,
+    .content .flex-wrap > .w-1\/3,
+    .content .flex-wrap > .w-1\/4,
+    .content .flex-wrap > .w-1\/5,
+    .content .flex-wrap > .w-1\/6,
+    .content .flex-wrap > .w-2\/3,
+    .content .flex-wrap > .w-2\/5,
+    .content .flex-wrap > .w-3\/4,
+    .content .flex-wrap > .w-3\/5,
+    .content .flex-wrap > .w-4\/5,
+    .content .flex-wrap > .w-5\/6 {
+        width: 100%;
+    }
+
+    .content .card table td.w-1\/2 {
+        display: table-row;
+    }
+
+    /* Other */
+    .btn {
+        white-space: nowrap;
+    }
+
+    div[dusk$='index-component'] .pl-search {
+        width: auto;
+    }
+
+    div[dusk$='index-component'] .btn[dusk='create-button'],
+    div[dusk$='index-component'] .btn[dusk='attach-button'] {
+        font-weight: bolder;
+        font-size: 26px;
+        padding: 0 12px;
+        width: 39px;
+        overflow: hidden;
+    }
+
+    div[dusk$='index-component'] .btn[dusk='create-button']::before,
+    div[dusk$='index-component'] .btn[dusk='attach-button']::before {
+        content: "+";
+        position: relative;
+    }
+    html:not([dir="rtl"]) div[dusk$='index-component'] .btn[dusk='create-button']::before,
+    html:not([dir="rtl"]) div[dusk$='index-component'] .btn[dusk='attach-button']::before {
+        margin-right: 20px;
+    }
+    html[dir="rtl"] div[dusk$='index-component'] .btn[dusk='attach-button']::before,
+    html[dir="rtl"] div[dusk$='index-component'] .btn[dusk='create-button']::before {
+        margin-left: 20px;
+    }
+
+    .modal {
+        top: auto;
+    }
+
+    .modal form {
+        width: 100% !important;
+    }
+
+    div[dusk$='index-component'] > div.card > div.py-3.flex.items-center.border-b.border-50 {
+        padding-bottom: 0.35rem;
+    }
+
+    div[dusk$='detail-component'] > div > div.flex.items-center.mb-3 {
+        display: block;
+    }
+
+    div[dusk$='detail-component'] > div > div.flex.items-center.mb-3 > h4 {
+        position: absolute;
+    }
+
+    div[dusk$='index-component'] > div.card > div.py-3.flex.items-center.border-b.border-50 > div.flex.items-center.ml-auto.px-3,
+    div[dusk$='detail-component'] > div > div.flex.items-center.mb-3 > div.ml-3.w-full.flex.items-center {
+        display: inline-block;
+    }
+
+    div[dusk$='detail-component'] > div > div.flex.items-center.mb-3 > div.ml-3.w-full.flex.items-center {
+        display: inline-block;
+        padding-top: 1.5rem
+    }
+
+    div[dusk$='index-component'] > div.card > div.py-3.flex.items-center.border-b.border-50 > div.flex.items-center.ml-auto.px-3 > div,
+    div[dusk$='detail-component'] > div > div.flex.items-center.mb-3 > div.ml-3.w-full.flex.items-center > div,
+    div[dusk$='detail-component'] > div > div.flex.items-center.mb-3 > div.ml-3.w-full.flex.items-center > button,
+    div[dusk$='detail-component'] > div > div.flex.items-center.mb-3 > div.ml-3.w-full.flex.items-center > a {
+        display: inline-flex;
+        vertical-align: top;
+        margin-bottom: 0.4rem;
+    }
+
+    html:not([dir="rtl"]) div[dusk$='detail-component'] > div > div.flex.items-center.mb-3 > div.ml-3.w-full.flex.items-center > div.ml-3 {
+        margin-left: 0;
+    }
+    html[dir="rtl"] div[dusk$='detail-component'] > div > div.flex.items-center.mb-3 > div.ml-3.w-full.flex.items-center > div.ml-3 {
+        margin-right: 0;
+    }
+}
+
+@media (max-width: 500px) {
+    select[dusk=action-select] {
+        width: 8.9rem;
+    }
+}
+
+@media (max-width: 310px) {
+    select[dusk=action-select] {
+        width: 5.6rem;
+    }
+}
+
+@media (max-height: 610px) {
+    .z-50.open .scroll-wrap {
+        max-height: 270px !important;
+    }
+}
+
+@media (max-height: 540px) {
+    .z-50.open .scroll-wrap {
+        max-height: 180px !important;
+    }
+}
+
+@media (max-height: 440px) {
+    .z-50.open .scroll-wrap {
+        max-height: 110px !important;
+    }
+}
