@@ -32,11 +32,23 @@
             IconToggle
         },
         mounted() {
-            this.darkThemeOn = localStorage.darkThemeOn === "true";
+
+            let prefersDarkScheme = window.matchMedia(
+                "(prefers-color-scheme: dark)"
+            ).matches;
+
+            if(prefersDarkScheme && localStorage.darkThemeOn === undefined) {
+                localStorage.darkThemeOn = "true";
+                this.darkThemeOn = "true";
+            } else {
+                this.darkThemeOn = localStorage.darkThemeOn === "true";
+            }
+
             if (localStorage.darkThemeOn === "true") {
                 document.querySelector('html').classList.add('nova-dark-theme');
                 document.querySelector('body').classList.add('nova-dark-theme');
             }
+
             if (localStorage.darkThemeOn === "false") {
                 document.querySelector('html').classList.remove('nova-dark-theme');
                 document.querySelector('body').classList.remove('nova-dark-theme');

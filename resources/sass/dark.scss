@@ -13,12 +13,50 @@ html.nova-dark-theme {
         height: auto !important;
     }
 
+    .hamburger-menu:before {
+        background: linear-gradient(
+                to bottom,
+                white, white 20%,
+                black 20%, black 40%,
+                white 40%, white 60%,
+                black 60%, black 80%,
+                white 80%, white 100%
+        );
+    }
+
     .dark-mode-toggle {
         background-color: #0e1217;
     }
 
-    .bg-white {
+    .bg-white, #layout-selector .components-container {
         background-color: #0d1117;
+    }
+
+    .component-layout-selector {
+        border-color: #30383d;
+        background-color: #161c22;
+    }
+
+    .flex {
+        .border-60 {
+            border-color: #30383d;
+        }
+        .bg-white {
+            background-color: #161b22;
+        }
+    }
+
+    a,
+    .link,
+    a .text-secondary {
+        color: #5c7aff;
+        text-decoration: none;
+        &:hover {
+            text-decoration: underline;
+        }
+        .link:visited {
+            color: #8d69f7;
+        }
     }
 
     .w-sidebar * {
@@ -30,7 +68,8 @@ html.nova-dark-theme {
         }
     }
 
-    .multiselect__option--highlight, .multiselect__option--highlight::after {
+    .multiselect__option--highlight,
+    .multiselect__option--highlight::after {
         background-color: #ff113b;
         background: #ff113b;
     }
@@ -40,30 +79,20 @@ html.nova-dark-theme {
         color: #ff113b !important;
     }
 
-    a {
-        color: #5c7aff;
-        text-decoration: none;
-        &:hover {
-            text-decoration: underline;
-        }
-        &:visited {
-            color: #8d69f7;
-        }
-    }
-
     .markdown {
-        background-color: #ffff !important;
+        // background-color: #ffff !important;
     }
 
-    .text-primary, .cursor-pointer:hover {
+    .text-primary,
+    .cursor-pointer:hover {
         color: #ff113b !important;
-
-        &:visited {
-            color: inherit !important;
-        }
     }
     .btn-primary {
         color: #ffff !important;
+
+        a:visited {
+            color: #ffff;
+        }
     }
 
     .bg-grad-sidebar {
@@ -88,11 +117,14 @@ html.nova-dark-theme {
         border-color: #30363d;
     }
 
-     .flex.items-center.relative.shadow.h-header.bg-white.z-20.px-view {
+    .flex.items-center.relative.shadow.h-header.bg-white.z-20.px-view {
         background-color: #0f1217;
     }
 
-    .bg-20, .card, .btn-white, .multiselect__spinner {
+    .bg-20,
+    .card,
+    .btn-white,
+    .multiselect__spinner {
         background-color: #161b22;
     }
 
@@ -104,36 +136,47 @@ html.nova-dark-theme {
         }
     }
 
-    .bg-40, .table tr:hover td, .tooltip, .multiselect__content-wrapper {
+    .bg-40,
+    .table tr:hover td,
+    .tooltip,
+    .multiselect__content-wrapper {
         background-color: #0d1117;
     }
 
-    .border-30, .border-50 {
+    .border-30 {
         border-color: #30363d;
     }
 
-    .border-40 {
-        border-color: #060910;
+    .border-30,
+    .border-40,
+    .border-50 {
+        border-color: #30373d;
     }
 
-    .border-60, .border-70 {
+    .border-60,
+    .border-70 {
         border-color: #0e1217;
     }
 
-    .text-60, .text-70 {
+    .border-80 {
+        border-color: #060910;
+    }
+
+    .text-60,
+    .text-70 {
         color: #626a71;
     }
 
-    .text-80, .text-90  {
+    .text-80,
+    .text-90 {
         color: #cfd3d8;
     }
 
     .relationship-tabs-panel .tab {
         color: #cfd3d8;
         &:hover {
-        color: #ff113b;
+            color: #ff113b;
         }
-
     }
 
     .btn-outline {
@@ -154,15 +197,17 @@ html.nova-dark-theme {
         background-color: #060910;
     }
 
-    .form-select, .tabs-wrap {
-        background-color: #0e1217;
-        border-color: #161b22;
-    }
+    // .form-select, .tabs-wrap {
+    //     background-color: #0e1217;
+    //     border-color: #161b22;
+    // }
 
     .form-input-bordered,
     .multiselect__input,
     .multiselect__tags,
     .multiselect__single,
+    .form-select,
+    .tags-input-text,
     .multiselect,
     .form-input-row {
         background-color: #0e1217;
@@ -182,13 +227,13 @@ html.nova-dark-theme {
     }
 
     .form-input-bordered,
-     .multiselect__content-wrapper,
-      .multiselect__tags {
+    .multiselect__content-wrapper,
+    .multiselect__tags {
         border-color: #2e3235;
     }
 
     .checkbox:checked {
-        background-color: #060910;
+        background-color: #ff133b;
     }
 
     select {
@@ -220,6 +265,4 @@ html.nova-dark-theme {
         color: #88929c;
         color: rgba(203, 213, 224, var(--text-opacity));
     }
-
-
 }

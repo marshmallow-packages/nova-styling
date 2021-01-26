@@ -1,5 +1,8 @@
-/build/
-/vendor/
-composer.lock
+/.idea
+/vendor
+/node_modules
 composer.phar
-node_modules
+phpunit.xml
+.phpunit.result.cache
+.DS_Store
+Thumbs.db
