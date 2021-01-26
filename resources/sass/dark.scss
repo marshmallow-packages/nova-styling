@@ -21,6 +21,17 @@ html.nova-dark-theme {
         background-color: #0d1117;
     }
 
+    a, .link, a .text-secondary {
+        color: #5c7aff;
+        text-decoration: none;
+        &:hover {
+            text-decoration: underline;
+        }
+        .link:visited {
+            color: #8d69f7;
+        }
+    }
+
     .w-sidebar * {
         color: #c9d1d9 !important;
 
@@ -40,19 +51,10 @@ html.nova-dark-theme {
         color: #ff113b !important;
     }
 
-    a {
-        color: #5c7aff;
-        text-decoration: none;
-        &:hover {
-            text-decoration: underline;
-        }
-        &:visited {
-            color: #8d69f7;
-        }
-    }
+
 
     .markdown {
-        background-color: #ffff !important;
+        // background-color: #ffff !important;
     }
 
     .text-primary, .cursor-pointer:hover {
@@ -64,6 +66,10 @@ html.nova-dark-theme {
     }
     .btn-primary {
         color: #ffff !important;
+
+         a:visited {
+             color: #ffff;
+        }
     }
 
     .bg-grad-sidebar {
@@ -108,23 +114,27 @@ html.nova-dark-theme {
         background-color: #0d1117;
     }
 
-    .border-30, .border-50 {
+    .border-30 {
         border-color: #30363d;
     }
 
-    .border-40 {
-        border-color: #060910;
+    .border-30, .border-40, .border-50 {
+        border-color: #30373d;
     }
 
     .border-60, .border-70 {
         border-color: #0e1217;
     }
 
+    .border-80 {
+        border-color: #060910;
+    }
+
     .text-60, .text-70 {
         color: #626a71;
     }
 
-    .text-80, .text-90  {
+    .text-80, .text-90 {
         color: #cfd3d8;
     }
 
@@ -154,15 +164,17 @@ html.nova-dark-theme {
         background-color: #060910;
     }
 
-    .form-select, .tabs-wrap {
-        background-color: #0e1217;
-        border-color: #161b22;
-    }
+    // .form-select, .tabs-wrap {
+    //     background-color: #0e1217;
+    //     border-color: #161b22;
+    // }
 
     .form-input-bordered,
     .multiselect__input,
     .multiselect__tags,
     .multiselect__single,
+    .form-select,
+    .tags-input-text,
     .multiselect,
     .form-input-row {
         background-color: #0e1217;
@@ -188,7 +200,7 @@ html.nova-dark-theme {
     }
 
     .checkbox:checked {
-        background-color: #060910;
+        background-color: #ff133b;
     }
 
     select {
@@ -220,6 +232,5 @@ html.nova-dark-theme {
         color: #88929c;
         color: rgba(203, 213, 224, var(--text-opacity));
     }
-
 
 }
