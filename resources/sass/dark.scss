@@ -17,8 +17,13 @@ html.nova-dark-theme {
         background-color: #0e1217;
     }
 
-    .bg-white {
+    .bg-white, #layout-selector .components-container {
         background-color: #0d1117;
+    }
+
+    .component-layout-selector {
+        border-color: #30383d;
+        background-color: #161c22;
     }
 
     .flex {
