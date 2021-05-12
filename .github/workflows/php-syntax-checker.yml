@@ -12,7 +12,7 @@ jobs:
     steps:
 
       - name: Checkout v2
-        uses: actions/checkout@v2
+        uses: actions/checkout@v2.3.4
 
       - name: Check PHP syntax errors
         uses: overtrue/phplint@master
