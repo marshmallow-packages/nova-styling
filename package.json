@@ -19,6 +19,6 @@
         "vue-template-compiler": "^2.4.14"
     },
     "dependencies": {
-        "vue": "^2.5.0"
+        "vue": "^3.2.30"
     }
 }
