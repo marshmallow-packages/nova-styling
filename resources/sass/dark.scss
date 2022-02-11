@@ -61,8 +61,12 @@ html.nova-dark-theme {
             text-decoration: underline;
         }
         .link:visited {
-            color: #8d69f7;
+            opacity: 0.8;
         }
+    }
+
+    .text-primary:visited {
+        color: #bc4d61 !important;
     }
 
     .w-sidebar * {
@@ -94,13 +98,13 @@ html.nova-dark-theme {
         color: #ff113b !important;
 
         &:visited {
-            color: inherit !important;
+            color: #bc4d61;
         }
     }
     .btn-primary {
-        color: #ffff !important;
+        color: #ffff;
 
-        a:visited {
+        &:visited {
             color: #ffff;
         }
     }
@@ -280,10 +284,18 @@ html.nova-dark-theme {
         color: #cfd3d8b3;
     }
 
+    .hover\:bg-30:hover {
+        background-color: #232930;
+    }
+
     .gallery .gallery-item .gallery-item-info {
         --bg-opacity: 0;
         background-color: #0e1217;
         background-color: rgba(14, 18, 23, var(--bg-opacity));
+    }
+
+    .gallery .gallery-item-image.gallery-item .gallery-item-info {
+        background-color: rgb(232 245 251 / 35%);
     }
 
     .bg-gray-100,
