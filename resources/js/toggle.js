@@ -1,5 +1,4 @@
 function darkTheme() {
-
     var toggle = document.querySelector(".dark-theme-toggle");
 
     toggle.addEventListener(
