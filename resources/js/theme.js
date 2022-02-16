@@ -1,7 +1,7 @@
 Nova.booting((Vue, router) => {
     Vue.component(
         "nova-dark-theme-toggle",
-        require("./components/NovaDarkThemeToggle")
+        require("./components/NovaDarkThemeToggle").default
     );
 });
 
@@ -12,7 +12,6 @@ if (localStorage.darkThemeOn === "true") {
     document.querySelector("html").classList.remove("nova-dark-theme");
     document.querySelector("body").classList.remove("nova-dark-theme");
 }
-
 
 function load() {
     // Set viewport
@@ -35,7 +34,7 @@ function load() {
     // Hamburger click event
     hamburger.addEventListener(
         "click",
-        function(e) {
+        function (e) {
             e.stopPropagation();
             var sidebar = document.querySelector(".w-sidebar");
             sidebar.classList.toggle("sidebar-hidden");
@@ -46,10 +45,10 @@ function load() {
     var sidebarLinks = document.querySelectorAll(
         ".w-sidebar a, .w-sidebar .cursor-pointer:not(.nc-head), .w-sidebar .nc-item-link"
     );
-    sidebarLinks.forEach(function(sidebarLink) {
+    sidebarLinks.forEach(function (sidebarLink) {
         sidebarLink.addEventListener(
             "click",
-            function() {
+            function () {
                 var sidebar = document.querySelector(".w-sidebar");
                 sidebar.classList.add("sidebar-hidden");
             },
@@ -59,8 +58,8 @@ function load() {
 
     // Hide sidebar when clicking outside
     var rootElements = document.querySelectorAll("body,html");
-    rootElements.forEach(function(rootElement) {
-        rootElement.addEventListener("click", function(e) {
+    rootElements.forEach(function (rootElement) {
+        rootElement.addEventListener("click", function (e) {
             var sidebar = document.querySelector(".w-sidebar");
             if (e.target !== sidebar && !sidebar.contains(e.target)) {
                 sidebar.classList.add("sidebar-hidden");
@@ -72,7 +71,7 @@ function load() {
     if (Nova.config.mmns) {
         // Hide sidebar headlines
         var sidebarHeadlines = document.querySelectorAll(".w-sidebar h4");
-        sidebarHeadlines.forEach(function(sidebarHeadline) {
+        sidebarHeadlines.forEach(function (sidebarHeadline) {
             if (
                 Nova.config.mmns.hide_all_sidebar_headlines ||
                 Nova.config.mmns.hidden_sidebar_headlines.indexOf(
@@ -86,13 +85,13 @@ function load() {
         // Sticky resource table actions
         if (Nova.config.mmns.resource_tables_sticky_actions) {
             var contents = document.querySelectorAll(".content");
-            contents.forEach(function(content) {
+            contents.forEach(function (content) {
                 content.classList.add("sticky-actions");
             });
         }
         if (Nova.config.mmns.resource_tables_sticky_actions_on_mobile) {
             var contents = document.querySelectorAll(".content");
-            contents.forEach(function(content) {
+            contents.forEach(function (content) {
                 content.classList.add("sticky-actions-on-mobile");
             });
         }
@@ -100,7 +99,7 @@ function load() {
         // Hide "Update & Continue Editing" button
         if (Nova.config.mmns.hide_update_and_continue_editing_button) {
             var contents = document.querySelectorAll(".content");
-            contents.forEach(function(content) {
+            contents.forEach(function (content) {
                 content.classList.add(
                     "hide-update-and-continue-editing-button"
                 );
@@ -110,7 +109,7 @@ function load() {
             Nova.config.mmns.hide_update_and_continue_editing_button_on_mobile
         ) {
             var contents = document.querySelectorAll(".content");
-            contents.forEach(function(content) {
+            contents.forEach(function (content) {
                 content.classList.add(
                     "hide-update-and-continue-editing-button-on-mobile"
                 );
