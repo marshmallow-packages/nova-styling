@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "0e7b4a28bfbc2207681089ec2fbb82e2",
+    "content-hash": "77ca1c0ed1ef0a3bbe50cd90c6fc7140",
     "packages": [
         {
             "name": "marshmallow/categorise-resources",
@@ -72,7 +72,7 @@
     "prefer-stable": true,
     "prefer-lowest": false,
     "platform": {
-        "php": "^7.1|^8.0"
+        "php": "^8.0"
     },
     "platform-dev": [],
     "plugin-api-version": "2.3.0"

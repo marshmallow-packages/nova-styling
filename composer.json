@@ -1,6 +1,5 @@
 {
     "name": "marshmallow/nova-styling",
-    "version": "v2.1.1",
     "description": "A Responsive Laravel Nova Marshmallow Theme based on 'A Responsive Laravel Nova theme'. With dark mode :)",
     "keywords": [
         "Laravel Nova Theme",
@@ -29,7 +28,7 @@
         }
     ],
     "require": {
-        "php": "^7.1|^8.0",
+        "php": "^8.0",
         "marshmallow/categorise-resources": "^1.0.0"
     },
     "require-dev": {},
