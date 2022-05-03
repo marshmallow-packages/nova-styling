@@ -22,13 +22,12 @@ class ThemeServiceProvider extends ServiceProvider
     {
         // JS for Responsive design
         Nova::serving(function (ServingNova $event) {
-            Nova::style('nova-styling',  __DIR__ . '/../dist/css/responsive.css');
-            Nova::style('nova-styling', __DIR__ . '/../dist/css/dark.css');
-            Nova::script('nova-styling', __DIR__ . '/../dist/js/theme.js');
+            // Nova::style('nova-styling',  __DIR__ . '/../dist/css/responsive.css');
+            // Nova::style('nova-styling', __DIR__ . '/../dist/css/dark.css');
+            // Nova::script('nova-styling', __DIR__ . '/../dist/js/theme.js');
             Nova::provideToScript([
                 'mmns' => config('nova-styling'),
             ]);
-
         });
 
         // Publishes Config
