@@ -21,12 +21,17 @@ html[dir="rtl"] .hamburger-menu {
     bottom: 0.21em;
     width: 1em;
     background: linear-gradient(
-            to bottom,
-            black, black 20%,
-            white 20%, white 40%,
-            black 40%, black 60%,
-            white 60%, white 80%,
-            black 80%, black 100%
+        to bottom,
+        black,
+        black 20%,
+        white 20%,
+        white 40%,
+        black 40%,
+        black 60%,
+        white 60%,
+        white 80%,
+        black 80%,
+        black 100%
     );
 }
 html:not([dir="rtl"]) .hamburger-menu:before {
@@ -36,12 +41,14 @@ html[dir="rtl"] .hamburger-menu:before {
     right: 0;
 }
 
-.content.hide-update-and-continue-editing-button button[dusk$='update-and-continue-editing-button'] {
+.content.hide-update-and-continue-editing-button
+    button[dusk$="update-and-continue-editing-button"] {
     display: none;
 }
 
 /* Resource tables */
-.content.sticky-actions .card table.w-full tbody tr td:last-child, .content.sticky-actions .card table.w-full thead tr th:last-child {
+.content.sticky-actions .card table.w-full tbody tr td:last-child,
+.content.sticky-actions .card table.w-full thead tr th:last-child {
     position: -webkit-sticky;
     position: -moz-sticky;
     position: -ms-sticky;
@@ -55,10 +62,10 @@ html[dir="rtl"] .hamburger-menu:before {
 }
 
 .content.sticky-actions .card table.w-full tbody tr td:last-child:before {
-    content: '';
+    content: "";
     height: 100%;
     top: 0;
-    margin-left: -.75rem;
+    margin-left: -0.75rem;
     position: absolute;
     border-left: 1px solid #eee;
 }
@@ -88,7 +95,13 @@ html[dir="rtl"] .hamburger-menu:before {
     }
 
     /* Resource tables */
-    .content.sticky-actions-on-mobile .card table.w-full tbody tr td:last-child, .content.sticky-actions-on-mobile .card table.w-full thead tr th:last-child {
+    .content.sticky-actions-on-mobile .card table.w-full tbody tr td:last-child,
+    .content.sticky-actions-on-mobile
+        .card
+        table.w-full
+        thead
+        tr
+        th:last-child {
         position: -webkit-sticky;
         position: -moz-sticky;
         position: -ms-sticky;
@@ -97,15 +110,25 @@ html[dir="rtl"] .hamburger-menu:before {
         right: 0;
     }
 
-    .content.sticky-actions-on-mobile .card table.w-full tbody tr td:last-child {
+    .content.sticky-actions-on-mobile
+        .card
+        table.w-full
+        tbody
+        tr
+        td:last-child {
         background: white;
     }
 
-    .content.sticky-actions-on-mobile .card table.w-full tbody tr td:last-child:before {
-        content: '';
+    .content.sticky-actions-on-mobile
+        .card
+        table.w-full
+        tbody
+        tr
+        td:last-child:before {
+        content: "";
         height: 100%;
         top: 0;
-        margin-left: -.75rem;
+        margin-left: -0.75rem;
         position: absolute;
         border-left: 1px solid #eee;
     }
@@ -158,7 +181,8 @@ html[dir="rtl"] .hamburger-menu:before {
         margin-left: -20px;
     }
 
-    .h-header .dropdown-trigger span, .h-header .dropdown-trigger svg {
+    .h-header .dropdown-trigger span,
+    .h-header .dropdown-trigger svg {
         display: none;
     }
 
@@ -168,7 +192,6 @@ html[dir="rtl"] .hamburger-menu:before {
     html[dir="rtl"] .h-header .dropdown-trigger img.mr-3 {
         margin-right: 2em;
     }
-
 
     span.hamburger-menu + a {
         display: none;
@@ -200,8 +223,8 @@ html[dir="rtl"] .hamburger-menu:before {
     }
 
     form .w-1\/2 > div.flex {
-       display: flex;
-       flex-wrap: nowrap;
+        display: flex;
+        flex-wrap: nowrap;
     }
 
     form > .flex {
@@ -212,33 +235,34 @@ html[dir="rtl"] .hamburger-menu:before {
         margin-bottom: 10px;
     }
 
-    .content.hide-update-and-continue-editing-button-on-mobile button[dusk$='update-and-continue-editing-button'] {
+    .content.hide-update-and-continue-editing-button-on-mobile
+        button[dusk$="update-and-continue-editing-button"] {
         display: none;
     }
 
     .content form .card > .flex,
-    div[dusk$='detail-component'] .card > .flex{
+    div[dusk$="detail-component"] .card > .flex {
         display: block;
     }
     .content form .card > .flex > div,
-    div[dusk$='detail-component'] .card > .flex > div {
+    div[dusk$="detail-component"] .card > .flex > div {
         width: 100%;
     }
 
     .content form .card > .flex > .py-6,
-    div[dusk$='detail-component'] .card > .flex > .py-4 {
-        padding-top: .5rem;
+    div[dusk$="detail-component"] .card > .flex > .py-4 {
+        padding-top: 0.5rem;
         padding-bottom: 0;
     }
 
     .content form .card > .flex > .py-6,
-    div[dusk$='detail-component'] .card > .flex.bg-20 > .py-4 {
-        padding-bottom: .5rem;
+    div[dusk$="detail-component"] .card > .flex.bg-20 > .py-4 {
+        padding-bottom: 0.5rem;
     }
 
     .content form .card > .flex > .py-6 + .py-6,
-    div[dusk$='detail-component'] .card > .flex > .py-4 + .py-4 {
-        padding-bottom: .5rem;
+    div[dusk$="detail-component"] .card > .flex > .py-4 + .py-4 {
+        padding-bottom: 0.5rem;
     }
 
     .card > form > div header.flex {
@@ -249,17 +273,41 @@ html[dir="rtl"] .hamburger-menu:before {
         border-bottom: 1px solid var(--60);
     }
 
-    html:not([dir="rtl"]) .card > form > div header.flex ul:nth-child(2) button:first-child {
+    html:not([dir="rtl"])
+        .card
+        > form
+        > div
+        header.flex
+        ul:nth-child(2)
+        button:first-child {
         border-left: none;
     }
-    html[dir="rtl"] .card > form > div header.flex ul:nth-child(2) button:first-child {
+    html[dir="rtl"]
+        .card
+        > form
+        > div
+        header.flex
+        ul:nth-child(2)
+        button:first-child {
         border-right: none;
     }
 
-    html:not([dir="rtl"]) .card > form > div header.flex ul:nth-child(2) button:last-child {
+    html:not([dir="rtl"])
+        .card
+        > form
+        > div
+        header.flex
+        ul:nth-child(2)
+        button:last-child {
         border-right: 1px solid var(--60);
     }
-    html[dir="rtl"] .card > form > div header.flex ul:nth-child(2) button:last-child {
+    html[dir="rtl"]
+        .card
+        > form
+        > div
+        header.flex
+        ul:nth-child(2)
+        button:last-child {
         border-left: 1px solid var(--60);
     }
 
@@ -302,12 +350,12 @@ html[dir="rtl"] .hamburger-menu:before {
         white-space: nowrap;
     }
 
-    div[dusk$='index-component'] .pl-search {
+    div[dusk$="index-component"] .pl-search {
         width: auto;
     }
 
-    div[dusk$='index-component'] .btn[dusk='create-button'],
-    div[dusk$='index-component'] .btn[dusk='attach-button'] {
+    div[dusk$="index-component"] .btn[dusk="create-button"],
+    div[dusk$="index-component"] .btn[dusk="attach-button"] {
         font-weight: bolder;
         font-size: 26px;
         padding: 0 12px;
@@ -315,75 +363,116 @@ html[dir="rtl"] .hamburger-menu:before {
         overflow: hidden;
     }
 
-    div[dusk$='index-component'] .btn[dusk='create-button']::before,
-    div[dusk$='index-component'] .btn[dusk='attach-button']::before {
+    div[dusk$="index-component"] .btn[dusk="create-button"]::before,
+    div[dusk$="index-component"] .btn[dusk="attach-button"]::before {
         content: "+";
         position: relative;
     }
-    html:not([dir="rtl"]) div[dusk$='index-component'] .btn[dusk='create-button']::before,
-    html:not([dir="rtl"]) div[dusk$='index-component'] .btn[dusk='attach-button']::before {
+    html:not([dir="rtl"])
+        div[dusk$="index-component"]
+        .btn[dusk="create-button"]::before,
+    html:not([dir="rtl"])
+        div[dusk$="index-component"]
+        .btn[dusk="attach-button"]::before {
         margin-right: 20px;
     }
-    html[dir="rtl"] div[dusk$='index-component'] .btn[dusk='attach-button']::before,
-    html[dir="rtl"] div[dusk$='index-component'] .btn[dusk='create-button']::before {
+    html[dir="rtl"]
+        div[dusk$="index-component"]
+        .btn[dusk="attach-button"]::before,
+    html[dir="rtl"]
+        div[dusk$="index-component"]
+        .btn[dusk="create-button"]::before {
         margin-left: 20px;
-    }
-
-    .modal {
-        top: auto;
     }
 
     .modal form {
         width: 100% !important;
     }
 
-    div[dusk$='index-component'] > div.card > div.py-3.flex.items-center.border-b.border-50 {
+    div[dusk$="index-component"]
+        > div.card
+        > div.py-3.flex.items-center.border-b.border-50 {
         padding-bottom: 0.35rem;
     }
 
-    div[dusk$='detail-component'] > div > div.flex.items-center.mb-3 {
+    div[dusk$="detail-component"] > div > div.flex.items-center.mb-3 {
         display: block;
     }
 
-    div[dusk$='detail-component'] > div > div.flex.items-center.mb-3 > h4 {
+    div[dusk$="detail-component"] > div > div.flex.items-center.mb-3 > h4 {
         position: absolute;
     }
 
-    div[dusk$='index-component'] > div.card > div.py-3.flex.items-center.border-b.border-50 > div.flex.items-center.ml-auto.px-3,
-    div[dusk$='detail-component'] > div > div.flex.items-center.mb-3 > div.ml-3.w-full.flex.items-center {
+    div[dusk$="index-component"]
+        > div.card
+        > div.py-3.flex.items-center.border-b.border-50
+        > div.flex.items-center.ml-auto.px-3,
+    div[dusk$="detail-component"]
+        > div
+        > div.flex.items-center.mb-3
+        > div.ml-3.w-full.flex.items-center {
         display: inline-block;
     }
 
-    div[dusk$='detail-component'] > div > div.flex.items-center.mb-3 > div.ml-3.w-full.flex.items-center {
+    div[dusk$="detail-component"]
+        > div
+        > div.flex.items-center.mb-3
+        > div.ml-3.w-full.flex.items-center {
         display: inline-block;
-        padding-top: 1.5rem
+        padding-top: 1.5rem;
     }
 
-    div[dusk$='index-component'] > div.card > div.py-3.flex.items-center.border-b.border-50 > div.flex.items-center.ml-auto.px-3 > div,
-    div[dusk$='detail-component'] > div > div.flex.items-center.mb-3 > div.ml-3.w-full.flex.items-center > div,
-    div[dusk$='detail-component'] > div > div.flex.items-center.mb-3 > div.ml-3.w-full.flex.items-center > button,
-    div[dusk$='detail-component'] > div > div.flex.items-center.mb-3 > div.ml-3.w-full.flex.items-center > a {
+    div[dusk$="index-component"]
+        > div.card
+        > div.py-3.flex.items-center.border-b.border-50
+        > div.flex.items-center.ml-auto.px-3
+        > div,
+    div[dusk$="detail-component"]
+        > div
+        > div.flex.items-center.mb-3
+        > div.ml-3.w-full.flex.items-center
+        > div,
+    div[dusk$="detail-component"]
+        > div
+        > div.flex.items-center.mb-3
+        > div.ml-3.w-full.flex.items-center
+        > button,
+    div[dusk$="detail-component"]
+        > div
+        > div.flex.items-center.mb-3
+        > div.ml-3.w-full.flex.items-center
+        > a {
         display: inline-flex;
         vertical-align: top;
         margin-bottom: 0.4rem;
     }
 
-    html:not([dir="rtl"]) div[dusk$='detail-component'] > div > div.flex.items-center.mb-3 > div.ml-3.w-full.flex.items-center > div.ml-3 {
+    html:not([dir="rtl"])
+        div[dusk$="detail-component"]
+        > div
+        > div.flex.items-center.mb-3
+        > div.ml-3.w-full.flex.items-center
+        > div.ml-3 {
         margin-left: 0;
     }
-    html[dir="rtl"] div[dusk$='detail-component'] > div > div.flex.items-center.mb-3 > div.ml-3.w-full.flex.items-center > div.ml-3 {
+    html[dir="rtl"]
+        div[dusk$="detail-component"]
+        > div
+        > div.flex.items-center.mb-3
+        > div.ml-3.w-full.flex.items-center
+        > div.ml-3 {
         margin-right: 0;
     }
 }
 
 @media (max-width: 500px) {
-    select[dusk=action-select] {
+    select[dusk="action-select"] {
         width: 8.9rem;
     }
 }
 
 @media (max-width: 310px) {
-    select[dusk=action-select] {
+    select[dusk="action-select"] {
         width: 5.6rem;
     }
 }
