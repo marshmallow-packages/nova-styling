@@ -46,8 +46,8 @@ class ThemeServiceProvider extends ServiceProvider
         ], 'styling');
 
         // Sets CSS file as asset
-        Nova::theme(asset('vendor/marshmallow/nova-styling/marshmallow-theme.css'));
-        Nova::theme(asset('vendor/marshmallow/nova-styling/responsive.css'));
+        Nova::style('nova-styling-mm', asset('vendor/marshmallow/nova-styling/marshmallow-theme.css'));
+        // Nova::style(asset('vendor/marshmallow/nova-styling/responsive.css'));
     }
 
     /**
