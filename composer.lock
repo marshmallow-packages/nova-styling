@@ -1,0 +1,79 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "77ca1c0ed1ef0a3bbe50cd90c6fc7140",
+    "packages": [
+        {
+            "name": "marshmallow/categorise-resources",
+            "version": "v1.3.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/marshmallow-packages/categorise-resources.git",
+                "reference": "e82769675c082cc33ec5196a1c9b8762e4d5536d"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/marshmallow-packages/categorise-resources/zipball/e82769675c082cc33ec5196a1c9b8762e4d5536d",
+                "reference": "e82769675c082cc33ec5196a1c9b8762e4d5536d",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^7.1|^8.0"
+            },
+            "type": "library",
+            "extra": {
+                "laravel": {
+                    "providers": [
+                        "Marshmallow\\CategoriseResources\\ToolServiceProvider"
+                    ]
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Marshmallow\\CategoriseResources\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Stef van Esch",
+                    "email": "stef@marshmallow.dev",
+                    "role": "Developer"
+                },
+                {
+                    "name": "Alex Bowers",
+                    "email": "bowersbros@gmail.com",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Group and categorise your nova resources",
+            "homepage": "https://github.com/marshmallow-packages/categorise-resources",
+            "keywords": [
+                "laravel",
+                "nova"
+            ],
+            "support": {
+                "issues": "https://github.com/marshmallow-packages/categorise-resources/issues",
+                "source": "https://github.com/marshmallow-packages/categorise-resources/tree/v1.3.2"
+            },
+            "time": "2021-07-01T17:55:08+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "dev",
+    "stability-flags": [],
+    "prefer-stable": true,
+    "prefer-lowest": false,
+    "platform": {
+        "php": "^8.0"
+    },
+    "platform-dev": [],
+    "plugin-api-version": "2.3.0"
+}
