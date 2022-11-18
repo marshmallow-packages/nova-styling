@@ -16,4 +16,4 @@ jobs:
               uses: actions/checkout@v3
 
             - name: Check PHP syntax errors
-              uses: overtrue/phplint@8.0
+              uses: overtrue/phplint@8.2
