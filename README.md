@@ -11,6 +11,9 @@ This package customizes Laravel Nova with the original Marshmallow styling. Impl
 composer require marshmallow/nova-styling
 ```
 
+
+
+
 ### Vendor Publish
 This theme includes adapted Nova blade files and a config file with options based on Nova Responsive Theme. To use them, first publish the config file:
 ```bash
